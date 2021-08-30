@@ -1,0 +1,82 @@
+.landing {
+    height: 100vh;
+    background-color: #f8f5f2;
+    color: #222525;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /*added to prevent user select on the main hero/landing viewport */
+  }
+  
+  .particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+  }
+  
+  .topline {
+      padding-top: 25vh;
+      font-size: 2.5vmax;
+  }
+  
+  .mainhead {
+    font-size: 8vmax;
+    background: linear-gradient(  
+      -45deg,
+      /* #078080 40%, */
+      #f45d48 40%,
+      #232323 10%,
+      #23d5ab 80%
+    );
+    background-size: 200% auto;
+  
+    color: #000;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    animation: shine 6s ease infinite;
+  }
+
+  .mainhead2 {
+    font-size: 3vmax;
+    background-color: #078080;
+    background-size: 200% auto;
+  
+    color: #000;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    animation: shine 6s ease infinite;
+  }
+  
+  .btn {
+      border: 2px solid black;
+      background-color: rgb(0, 0, 0);
+  }
+ 
+  @keyframes shine {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .date {
+    font-size: 3vmax;
+  }
+  

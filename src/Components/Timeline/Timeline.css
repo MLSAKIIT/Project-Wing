@@ -1,0 +1,56 @@
+#timeline{
+    line-height: 200%;
+}
+
+.timeline {
+    background-color: #f8f5f2;
+    color: #222525;
+}
+
+.imaze {
+    width: 100%;
+}
+
+.header {
+    position: relative;
+    overflow: hidden;
+}
+
+.header::after {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    overflow: hidden;
+    width: 70rem;
+    height: 3px;
+    content: '\a0';
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+@media only screen and (max-width: 1200px)
+{
+  .para {
+    text-align: center !important;
+  }
+    .header {
+      text-align: center !important;
+    }
+    .header::after {
+        display: none;
+    }
+}

@@ -1,0 +1,60 @@
+#about-para{
+    line-height: 200%;
+    text-align: center;
+}
+
+.about {
+    height: 100%;
+    padding: 3rem 0;
+}
+
+.pw-img {
+    max-width: 35vmax;
+    border-radius: 20px;
+}
+
+.para {
+    color: #222525;
+    font-size: 1.5rem;
+}
+
+.header1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.header1::before {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    overflow: hidden;
+    width: 70rem;
+    height: 3px;
+    content: '\a0';
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+@media only screen and (max-width: 1200px)
+{
+    .header1 {
+        text-align: center !important;
+    }
+    .header1::before {
+        display: none;
+    }
+}

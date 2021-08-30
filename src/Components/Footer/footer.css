@@ -1,0 +1,21 @@
+h3{
+    color: #232323;
+}
+
+p{
+    color:#222525;
+}
+
+i{
+    color: #232323;
+}
+
+#copyright{
+    height: 50px;
+    /* background-color: #232323; */
+}
+
+.mdb-col {
+    padding: 1rem 0;
+    background-color: black;
+}
