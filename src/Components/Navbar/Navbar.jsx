@@ -2,7 +2,8 @@ import React from 'react'
 import '../Navbar/Navbar.css'
 import {Navbar, Nav} from 'react-bootstrap'
 
-import gsoc from '../../images/gsoc.png'
+// import gsoc from '../../images/gsoc.png'
+import logo from '../../images/pw.png'
 
 
 export default function NavBar() {
@@ -12,7 +13,7 @@ export default function NavBar() {
 
             <Navbar.Brand href="/">
                 <img
-                    src={gsoc}
+                    src={logo}
                     width="50"
                     height="50"
                     className="d-inline-block align-top md:ml-5"
