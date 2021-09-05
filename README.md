@@ -13,7 +13,7 @@ Tech Stack Used:
 
 0. Delete package-lock.json (take care to delete package-lock.json and NOT package.json)
 
-1. Installation: run `npm install -f`
+1. Installation: run `npm install -f` (-f is to force install as some packages are giving errors)
 
 2. In the project directory, you can run: `npm start`
 
