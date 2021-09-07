@@ -5,6 +5,7 @@
 .timeline {
     background-color: #f8f5f2;
     color: #222525;
+    position: relative;
 }
 
 .imaze {
@@ -12,21 +13,11 @@
 }
 
 .header {
-    position: relative;
-    overflow: hidden;
-}
-
-.header::after {
     position: absolute;
-    top: 80%;
-    left: 20%;
-    overflow: hidden;
-    width: 70rem;
-    height: 3px;
-    content: '\a0';
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 200% 200%;
-    animation: gradient 5s ease infinite;
+    font-size: 5rem;
+    rotate: 270deg;
+    top: 30%;
+    right: 80%;
 }
 
 @keyframes gradient {
