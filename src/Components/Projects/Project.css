@@ -6,10 +6,10 @@
   position: absolute;
   font-size: 5rem;
   font-weight: 700 !important;
-  rotate: 270deg;
+  transform: rotate(270deg);
   top: 40%;
   right: 80%;
-  color: #f45d48;
+  color: #078080;
   }
   
 
@@ -24,20 +24,30 @@
   }  
 
   
-  @media only screen and (max-width: 1200px)
+  @media only screen and (max-width: 1400px)
   {
     .projects-text {
-        text-align: center !important;
+      position: unset;
+      transform: rotate(0deg);
+      font-size: 5rem;
+      font-weight: 700 !important;
+      color: #078080;
     }
-    .projects-text::after {
-        display: none;
-    }
+
     .tba {
       text-align: center;
       font-size: 3.5rem;
       padding: 0;
     }
   }
+
+  @media only screen and (max-width: 786px)
+{
+    .projects-text {
+      font-size: 3rem;
+    }
+}
+
   
   .flip-card-project {
     background-color: transparent;

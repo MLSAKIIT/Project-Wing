@@ -13,11 +13,13 @@
 }
 
 .header {
-    position: absolute;
-    font-size: 5rem;
-    rotate: 270deg;
-    top: 30%;
-    right: 80%;
+  position: absolute;
+  font-size: 5rem;
+  font-weight: 700 !important;
+  transform: rotate(270deg);
+  top: 45%;
+  right: 80%;
+  color: #078080;
 }
 
 @keyframes gradient {
@@ -33,15 +35,26 @@
   }
   
 
-@media only screen and (max-width: 1200px)
+@media only screen and (max-width: 1400px)
 {
   .para {
     text-align: center !important;
   }
     .header {
-      text-align: center !important;
+      position: unset;
+      transform: rotate(0deg);
+      font-size: 5rem;
+      font-weight: 700 !important;
+      color: #078080;
     }
     .header::after {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 786px)
+{
+    .header {
+      font-size: 3rem;
     }
 }

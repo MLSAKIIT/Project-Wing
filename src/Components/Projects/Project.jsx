@@ -18,7 +18,7 @@ export default function Project() {
 
         <Container className="py-5 pro-cont">
         <br></br>
-            <h1 className="projects-text text-right grad-text">Domains</h1>
+            <h1 className="projects-text text-left grad-text">Domains</h1>
             <Row>
                 <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
                 <div class="flip-card-project">
@@ -105,11 +105,6 @@ export default function Project() {
                 </Col>
             </Row>
         </Container>
-        <div className="my-4">
-                <Button variant="outline-light" size="xxl" className="btn m-2" id="apply" style={{fontFamily: 'Poppins'}} href="">
-                Apply Now!!!
-                </Button>
-        </div>
         </div>
         
     )
