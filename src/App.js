@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -10,25 +10,44 @@ import NavBar from './Components/Navbar/Navbar';
 import Project from './Components/Projects/Project';
 import Footer from './Components/Footer/Footer';
 import About from './Components/About/About';
-import Procedure from './Components/Procedure/Procedure';
-import FAQ from './Components/FAQ/FAQ';
 import Timeline from './Components/Timeline/Timeline';
+import Apply from './Components/Apply/Apply';
+import CreateProject from './Components/CreateProject/CreateProject';
 
 AOS.init();
 
 
 function App() {
   return (
-    <div className="App">
-      <NavBar/>
-      <Landing/>
-      <About/>
-      <Timeline/>
-      <Procedure />
-      <Project/>
-      <FAQ />
-      <Footer/>
-    </div>
+    <Router>
+      <div className="App">
+        <NavBar/>
+
+        <div className="content">
+          <Switch>
+
+            <Route path="/apply">
+              <Apply/>
+            </Route>
+            
+            {/* <Route path="/createproject">
+              <CreateProject/>
+            </Route> */}
+            
+            <Route path="/">
+              <Landing/>
+              <About/>
+              <Timeline/>
+              <Project/>
+            </Route>
+            
+          </Switch>
+        </div>
+        
+        <Footer/>
+      </div>
+    </Router>
+    
   );
 }
 
