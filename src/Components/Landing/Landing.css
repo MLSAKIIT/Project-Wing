@@ -21,12 +21,16 @@
   }
   
   .topline {
-      padding-top: 25vh;
+      padding-top: 15vh;
       font-size: 2.5vmax;
   }
   
+.Landingimg-img{
+  margin-top: 15rem;
+}
+
   .mainhead {
-    font-size: 8vmax;
+    font-size: 6vmax;
     background: linear-gradient(  
       -45deg,
       /* #078080 40%, */

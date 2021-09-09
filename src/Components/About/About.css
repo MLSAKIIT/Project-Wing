@@ -5,7 +5,7 @@
 
 .about {
     height: 100%;
-    padding: 3rem 0;
+    padding: 5rem 0;
 }
 
 .pw-img {
@@ -35,6 +35,20 @@
     background-size: 200% 200%;
     animation: gradient 5s ease infinite;
 }
+
+
+
+.pro-text {
+    position: absolute;
+    font-size: 5rem;
+    font-weight: 700 !important;
+    transform: rotate(270deg);
+    top: 40%;
+    right: 78%;
+    color: #078080;
+}
+
+
 
 @keyframes gradient {
     0% {
