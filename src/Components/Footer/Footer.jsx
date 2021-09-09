@@ -8,9 +8,7 @@ import '../Footer/footer.css'
 export default function Footer() {
   return (
 
-    <div className="footer" id="footer" class="bg_image"
- 
-    >
+    <div className="footer" id="footer" class="bg_image">
       <h1 className="grad-text">Contact us</h1>
         <MDBFooter color="blue" className="font-small pt-4 mt-4">
           <MDBContainer fluid className="text-center text-md-left">

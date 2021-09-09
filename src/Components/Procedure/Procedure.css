@@ -1,0 +1,51 @@
+.procedures {
+    position: relative;
+    margin: 5rem 0;
+}
+
+.pro-img {
+    margin-top: 5rem;
+}
+
+.pro-img-mob {
+    display: none;
+}
+
+.pro-text {
+    position: absolute;
+    font-size: 5rem;
+    font-weight: 700 !important;
+    transform: rotate(270deg);
+    top: 40%;
+    right: 78%;
+    color: #078080;
+}
+
+@media only screen and (max-width: 1400px) {
+    .pro-text {
+        position: unset;
+        transform: rotate(0deg);
+        font-size: 5rem;
+        font-weight: 700 !important;
+        color: #078080;
+    }
+}
+
+@media only screen and (max-width: 786px) {
+    .pro-para {
+        font-size: 1.5rem;
+    }
+    .pro-text {
+        font-size: 3rem;
+    }
+
+    .pro-img {
+        display: none;
+
+    }
+    
+    .pro-img-mob {
+        margin-top: 3rem;
+        display: block;
+    }
+}
