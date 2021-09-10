@@ -106,11 +106,15 @@ export default class Apply extends Component {
     render(){
         return(
             <div>
-           
-                <h3>Create New User</h3>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+
+                <h3>Registration</h3>
                 <form onSubmit={this.onSubmit}>
                 <div className="form-group"> 
-                    <label>Username: </label>
+                    <label>Name: </label>
                     <input  type="text"
                         required
                         className="form-control"
@@ -118,6 +122,111 @@ export default class Apply extends Component {
                         onChange={this.onChangeUsername}
                         />
                 </div>
+
+                <div className="form-group"> 
+                    <label>Email: </label>
+                    <input  type="email"
+                        required
+                        className="form-control"
+                        value={this.state.email}
+                        onChange={this.onChangeEmail}
+                        />
+                </div>
+
+                <div className="form-group"> 
+                    <label>Phone: </label>
+                    <input  type="tel"
+                        pattern="[0-9]{4}-[0-9]{6}"
+                        required
+                        className="form-control"
+                        value={this.state.phone}
+                        onChange={this.onChangePhone}
+                        />
+                </div>
+
+                <div className="form-group"> 
+                    <label>College: </label>
+                    <input  type="text"
+                        required
+                        className="form-control"
+                        value={this.state.college}
+                        onChange={this.onChangeCollege}
+                        />
+                </div>
+
+                <div className="form-group"> 
+                    <label>Batch: </label>
+                    <input type="number"
+                        required
+                        className="form-control"
+                        value={this.state.batch}
+                        onChange={this.onChangeBatch}
+                        />
+                </div>
+
+                <label>Are you are a member of MSC, KIIT Chapter? </label>
+                <div className="radio"> 
+                    <label for="yes">
+                    <input type="radio"
+                        className="form-control"
+                        value= "Yes"
+                        onChange={this.onChangeMsc}
+                        />
+                    Yes
+                    </label>
+                </div>
+                <div className="radio"> 
+                    <label for="no">
+                    <input type="radio"
+                        className="form-control"
+                        value= "No"
+                        onChange={this.onChangeMsc}
+                        />
+                    No
+                    </label>
+                </div><br></br>
+
+                <div className="form-group"> 
+                    <label>Email: </label>
+                    <input  type="email"
+                        required
+                        className="form-control"
+                        value={this.state.email}
+                        onChange={this.onChangeEmail}
+                        />
+                </div>
+
+                <div className="form-group"> 
+                    <label>Email: </label>
+                    <input  type="email"
+                        required
+                        className="form-control"
+                        value={this.state.email}
+                        onChange={this.onChangeEmail}
+                        />
+                </div>
+
+                <div className="form-group"> 
+                    <label>Name: </label>
+                    <input  type="text"
+                        required
+                        className="form-control"
+                        value={this.state.username}
+                        onChange={this.onChangeUsername}
+                        />
+                </div>
+
+                <div className="form-group"> 
+                    <label>Email: </label>
+                    <input  type="email"
+                        required
+                        className="form-control"
+                        value={this.state.email}
+                        onChange={this.onChangeEmail}
+                        />
+                </div>
+
+
                 <div className="form-group">
                     <input type="submit" value="Create User" className="btn btn-primary" />
                 </div>
