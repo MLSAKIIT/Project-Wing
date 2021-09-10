@@ -12,7 +12,9 @@ import Footer from './Components/Footer/Footer';
 import About from './Components/About/About';
 import Timeline from './Components/Timeline/Timeline';
 import Apply from './Components/Apply/Apply';
+import FAQ from './Components/FAQ/FAQ'
 import CreateProject from './Components/CreateProject/CreateProject';
+import Procedure from './Components/Procedure/Procedure';
 
 AOS.init();
 
@@ -37,8 +39,10 @@ function App() {
             <Route path="/">
               <Landing/>
               <About/>
+              <Procedure/>
               <Timeline/>
               <Project/>
+              <FAQ/>
             </Route>
             
           </Switch>
