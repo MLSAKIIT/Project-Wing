@@ -10,6 +10,8 @@ import NavBar from './Components/Navbar/Navbar';
 import Project from './Components/Projects/Project';
 import Footer from './Components/Footer/Footer';
 import About from './Components/About/About';
+import Procedure from './Components/Procedure/Procedure';
+import FAQ from './Components/FAQ/FAQ';
 import Timeline from './Components/Timeline/Timeline';
 import Apply from './Components/Apply/Apply';
 import CreateProject from './Components/CreateProject/CreateProject';
@@ -36,9 +38,16 @@ function App() {
             
             <Route path="/">
               <Landing/>
+              <hr className="divver"/>
               <About/>
+              <hr className="divver"/>
               <Timeline/>
+              <hr className="divver"/>
+              <Procedure />
+              <hr className="divver"/>
               <Project/>
+              <hr className="divver"/>
+              <FAQ />
             </Route>
             
           </Switch>
