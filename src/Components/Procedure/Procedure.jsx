@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import '../Procedure/Procedure.css'
-import pro from '../../images/pro.png'
+import pro from '../../images/pro1.png'
 import promob from '../../images/promob.png'
 
 export default function Procedure() {

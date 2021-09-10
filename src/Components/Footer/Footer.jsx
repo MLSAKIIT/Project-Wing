@@ -2,6 +2,8 @@ import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import Logo1 from '../../images/Logo1.png'
 import { SocialIcon } from 'react-social-icons';
+import logo from '../../images/main_logo.png'
+
 
 import '../Footer/footer.css'
 
@@ -13,10 +15,11 @@ export default function Footer() {
         <MDBFooter color="blue" className="font-small pt-4 mt-4">
           <MDBContainer fluid className="text-center text-md-left">
             <MDBRow>
-              <MDBCol md="2">
+              <MDBCol md="3">
                 <img id="comlogo" className="com-logo" src={Logo1} style={{height:'150px'}} alt="MSC Logo"/>
+                <img id="comlogo" className="com-logo" src={logo} style={{height:'150px'}} alt="MSC Logo"/>
               </MDBCol>
-              <MDBCol md="6">
+              <MDBCol md="5">
                 <h3 className="title">Microsoft Student Community, KIIT Chapter</h3>
                 <p style={{fontFamily: 'DM Sans'}}>
                   Finding your community is more important than ever as classes
