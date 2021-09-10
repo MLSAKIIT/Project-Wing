@@ -1,86 +1,89 @@
 .landing {
-    height: 100vh;
-    background-color: #f8f5f2;
-    color: #222525;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    /*added to prevent user select on the main hero/landing viewport */
-  }
-  
-  .particles {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -10;
-  }
-  
-  .topline {
-      padding-top: 15vh;
-      font-size: 2.5vmax;
-  }
-  
-.Landingimg-img{
+  height: 100vh;
+  background-color: #f8f5f2;
+  color: #222525;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /*added to prevent user select on the main hero/landing viewport */
+  text-align: left;
+  margin: 0 4rem;
+}
+
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+}
+
+.topline {
+  padding-top: 20vh;
+  font-size: 2vmax;
+  color: #078080;
+  font-weight: 600 !important;
+}
+
+.Landingimg-img {
   margin-top: 15rem;
 }
 
-  .mainhead {
-    font-size: 6vmax;
-    background: linear-gradient(  
-      -45deg,
-      /* #078080 40%, */
-      #f45d48 40%,
-      #232323 10%,
-      #23d5ab 80%
-    );
-    background-size: 200% auto;
-  
-    color: #000;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  
-    animation: shine 6s ease infinite;
+.mainhead {
+  font-size: 6vmax;
+  font-weight: 800 !important;
+  color: #F45D48;
+}
+
+.mainhead2 {
+  font-size: 2vmax;
+  font-weight: 600 !important;
+
+}
+
+.btn {
+  /* border: 2px solid black; */
+  background-color: #F45D48;
+  border-radius: 500px;
+  font-size: 2rem !important;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0% 50%;
   }
 
-  .mainhead2 {
-    font-size: 3vmax;
-    background-color: #078080;
-    background-size: 200% auto;
-  
-    color: #000;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  
-    animation: shine 6s ease infinite;
+  50% {
+    background-position: 100% 50%;
   }
-  
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.date {
+  font-size: 3vmax;
+}
+
+@media only screen and (max-width: 786px) {
+
+  .landing {
+    text-align: left;
+    margin: 0 1rem;
+  }
+
+  .Landingimg-img {
+    margin-top: 2rem;
+  }
+
   .btn {
-      border: 2px solid black;
-      background-color: rgb(0, 0, 0);
-  }
- 
-  @keyframes shine {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+    border-radius: 500px;
+    font-size: 1.25rem !important;
   }
   
-  .date {
-    font-size: 3vmax;
-  }
-  
+}

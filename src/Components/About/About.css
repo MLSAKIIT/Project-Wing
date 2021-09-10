@@ -6,6 +6,8 @@
 .about {
     height: 100%;
     padding: 5rem 0;
+    position: relative;
+    font-family: "DM Sans", sans-serif;
 }
 
 .pw-img {
@@ -19,23 +21,18 @@
 }
 
 .header1 {
-    position: relative;
-    overflow: hidden;
-}
-
-.header1::before {
     position: absolute;
-    top: 50%;
-    right: 15%;
-    overflow: hidden;
-    width: 70rem;
-    height: 3px;
-    content: '\a0';
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 200% 200%;
-    animation: gradient 5s ease infinite;
+    font-size: 5rem;
+    font-weight: 700 !important;
+    transform: rotate(270deg);
+    top: 40%;
+    right: 85%;
+    color: #078080;
 }
 
+.pro-img {
+    margin: 5rem 2rem;
+}
 
 
 .pro-text {

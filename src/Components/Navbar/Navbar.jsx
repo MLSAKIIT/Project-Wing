@@ -3,7 +3,8 @@ import '../Navbar/Navbar.css'
 import {Navbar, Nav} from 'react-bootstrap'
 
 // import gsoc from '../../images/gsoc.png'
-import logo from '../../images/pw.png'
+// import logo from '../../images/pw.png'
+import logo from '../../images/m_logo.png'
 
 
 export default function NavBar() {
