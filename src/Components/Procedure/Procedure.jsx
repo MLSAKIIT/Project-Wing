@@ -11,7 +11,7 @@ export default function Procedure() {
             <br></br>
             <br></br>
             <Container>
-                <h1 className="pro-text text-left grad-text">Procedure</h1>
+                <h1 className="proc-text text-left grad-text">Procedure</h1>
 
 
                 <h3 className="text-left pro-para">

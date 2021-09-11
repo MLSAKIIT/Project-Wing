@@ -1,9 +1,9 @@
-#about-para{
+#perks-para{
     line-height: 200%;
     text-align: center;
 }
 
-.about {
+.perks {
     height: 100%;
     padding: 5rem 0;
     position: relative;
@@ -20,7 +20,7 @@
     font-size: 1.5rem;
 }
 
-.header-abt {
+.header1 {
     position: absolute;
     font-size: 5rem;
     font-weight: 700 !important;
@@ -33,6 +33,19 @@
 .pro-img {
     margin: 5rem 2rem;
 }
+
+
+.pro-text {
+    position: absolute;
+    font-size: 5rem;
+    font-weight: 700 !important;
+    transform: rotate(270deg);
+    top: 40%;
+    right: 78%;
+    color: #078080;
+}
+
+
 
 @keyframes gradient {
     0% {
@@ -47,14 +60,10 @@
   }
   
 
-@media only screen and (max-width: 1400px)
+@media only screen and (max-width: 1200px)
 {
-    .header-abt {
-        position: unset;
-        transform: rotate(0deg);
-        font-size: 5rem;
-        font-weight: 700 !important;
-        color: #078080;
+    .header1 {
+        text-align: center !important;
     }
     .header1::before {
         display: none;
