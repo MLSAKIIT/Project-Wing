@@ -1,5 +1,7 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import axios from "axios";
+import "../Apply/Apply.css"
+import { Row, Col, Form } from 'react-bootstrap'
 
 export default class Apply extends Component {
 
@@ -30,7 +32,7 @@ export default class Apply extends Component {
             github: '',
             linkedin: '',
             resume: '',
-            work:''
+            work: ''
         }
     }
 
@@ -40,31 +42,31 @@ export default class Apply extends Component {
             username: e.target.value
         })
     }
-    
+
     onChangeEmail(e) {
         this.setState({
             email: e.target.value
         })
     }
-    
+
     onChangePhone(e) {
         this.setState({
             phone: e.target.value
         })
     }
-    
+
     onChangeCollege(e) {
         this.setState({
             college: e.target.value
         })
     }
-    
+
     onChangeBatch(e) {
         this.setState({
             batch: e.target.value
         })
     }
-    
+
     onChangeDomain(e) {
         this.setState({
             domain: e.target.value
@@ -82,26 +84,26 @@ export default class Apply extends Component {
             github: e.target.value
         })
     }
-    
+
     onChangeLinkedin(e) {
         this.setState({
             linkedin: e.target.value
         })
     }
-        
+
     onChangeResume(e) {
         this.setState({
             resume: e.target.value
         })
     }
-    
+
     onChangeWork(e) {
         this.setState({
             work: e.target.value
         })
     }
-    
-    onSubmit(e){
+
+    onSubmit(e) {
         e.preventDefault();
 
         const user = {
@@ -138,7 +140,7 @@ export default class Apply extends Component {
         // } catch (err) {
         //     error = err;
         // }
-        
+
         // error.message; // "https://httpbin.org/status/404 not found"
 
         this.setState({
@@ -152,140 +154,154 @@ export default class Apply extends Component {
             github: '',
             linkedin: '',
             resume: '',
-            work:''
+            work: ''
         })
     }
-  
 
-    render(){
-        return(
-            <div>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
 
-                <h3>Registration</h3>
-                <form onSubmit={this.onSubmit}>
-                <div className="form-group"> 
-                    <label>Name: </label>
-                    <input  type="text"
-                        required
-                        className="form-control"
-                        value={this.state.username}
-                        onChange={this.onChangeUsername}
-                        />
+    render() {
+        return (
+            <div className="con-baap">
+                <div className="containers">
+                    <h3 className="title">Registration</h3>
+
+                    <form onSubmit={this.onSubmit}>
+
+                        <Row>
+                            <Col md={6}>
+                                <div className="form-group">
+                                    <label className="label-text">Name: </label>
+                                    <input type="text"
+                                        required
+                                        className="form-control"
+                                        value={this.state.username}
+                                        onChange={this.onChangeUsername}
+                                    />
+                                </div>
+
+                                <div className="form-group">
+                                    <label className="label-text">Phone: </label>
+                                    <input type="tel"
+                                        required
+                                        className="form-control"
+                                        value={this.state.phone}
+                                        onChange={this.onChangePhone}
+                                    />
+                                </div>
+
+                                <div className="form-group">
+                                    <label className="label-text">Batch: </label><br></br>
+                                    <select className="drop-sel" required value={this.state.batch} onChange={this.onChangeBatch}>
+                                        <option></option>
+                                        <option value="2025">2021 - 2025</option>
+                                        <option value="2024">2020 - 2024</option>
+                                        <option value="2023">2019 - 2023</option>
+                                        <option value="2022">2018 - 2022</option>
+                                    </select>
+                                </div>
+
+
+                                <div className="form-group">
+                                    <label className="label-text">Github Link: </label>
+                                    <input type="url"
+                                        required
+                                        className="form-control"
+                                        value={this.state.github}
+                                        onChange={this.onChangeGithub}
+                                    />
+                                </div>
+
+                                <div className="form-group">
+                                    <label className="label-text">CV / Resume Link: </label>
+                                    <input type="url"
+                                        required
+                                        className="form-control"
+                                        value={this.state.resume}
+                                        onChange={this.onChangeResume}
+                                    />
+                                </div>
+                            </Col>
+
+
+                            <Col md={6}>
+                                <div className="form-group">
+                                    <label className="label-text">Email: </label>
+                                    <input type="email"
+                                        required
+                                        className="form-control"
+                                        value={this.state.email}
+                                        onChange={this.onChangeEmail}
+                                    />
+                                </div>
+
+                                <div className="form-group">
+                                    <label className="label-text">College: </label>
+                                    <input type="text"
+                                        required
+                                        className="form-control"
+                                        value={this.state.college}
+                                        onChange={this.onChangeCollege}
+                                    />
+                                </div>
+
+                                <div className="form-group">
+                                    <label className="label-text">Domain: </label><br></br>
+                                    <select className="drop-sel" required value={this.state.domain} onChange={this.onChangeDomain}>
+                                        <option></option>
+                                        <option value="learner">Learner</option>
+                                        <option value="Frontend">Frontend Web Development</option>
+                                        <option value="Backend">Backend Web Development</option>
+                                        <option value="App">App Development</option>
+                                        <option value="OS">Operating Systems</option>
+                                        <option value="Dbms">Database Management</option>
+                                        <option value="AWS">AWS</option>
+                                        <option value="ML">Machine Learning</option>
+                                        <option value="AR">AR / VR</option>
+                                        <option value="DSA">Data Structures and Algorithms</option>
+                                    </select>
+                                </div>
+
+
+                                <div className="form-group">
+                                    <label className="label-text">Linkedin Link: </label>
+                                    <input type="url"
+                                        required
+                                        className="form-control"
+                                        value={this.state.linkedin}
+                                        onChange={this.onChangeLinkedin}
+                                    />
+                                </div>
+
+                                <div className="form-group">
+                                    <label className="label-text">Share the link of any of your work done: </label>
+                                    <input type="url"
+                                        className="form-control"
+                                        value={this.state.work}
+                                        onChange={this.onChangeWork}
+                                    />
+                                </div>
+
+
+
+                            </Col>
+
+
+                        </Row>
+                        <label className="label-text">Are you are a member of MSC, KIIT Chapter? </label>
+                        <div className="form-group">
+                            <input type="checkbox"
+                                onChange={this.onChangeMsc} />
+                        </div>
+
+                        <div className="form-group">
+                            <input type="submit" value="Register" className="btn btn-primary reg-btn" />
+                        </div>
+                    </form>
                 </div>
-
-                <div className="form-group"> 
-                    <label>Email: </label>
-                    <input  type="email"
-                        required
-                        className="form-control"
-                        value={this.state.email}
-                        onChange={this.onChangeEmail}
-                        />
-                </div>
-
-                <div className="form-group"> 
-                    <label>Phone: </label>
-                    <input  type="tel"
-                        required
-                        className="form-control"
-                        value={this.state.phone}
-                        onChange={this.onChangePhone}
-                        />
-                </div>
-
-                <div className="form-group"> 
-                    <label>College: </label>
-                    <input  type="text"
-                        required
-                        className="form-control"
-                        value={this.state.college}
-                        onChange={this.onChangeCollege}
-                        />
-                </div>
-
-                <div className="form-group">
-                    <label>Batch: </label><br></br>
-                    <select required value = {this.state.batch} onChange = {this.onChangeBatch}>
-                        <option></option>
-                        <option value = "2025">2021 - 2025</option>
-                        <option value = "2024">2020 - 2024</option>
-                        <option value = "2023">2019 - 2023</option>
-                        <option value = "2022">2018 - 2022</option>
-                    </select>
-                </div>
-
-                <div className="form-group">
-                    <label>Domain: </label><br></br>
-                    <select required value = {this.state.domain} onChange = {this.onChangeDomain}>
-                        <option></option>
-                        <option value = "learner">Learner</option>
-                        <option value = "Frontend">Frontend Web Development</option>
-                        <option value = "Backend">Backend Web Development</option>
-                        <option value = "App">App Development</option>
-                        <option value = "OS">Operating Systems</option>
-                        <option value = "Dbms">Database Management</option>
-                        <option value = "AWS">AWS</option>
-                        <option value = "ML">Machine Learning</option>
-                        <option value = "AR">AR / VR</option>
-                        <option value = "DSA">Data Structures and Algorithms</option>
-                    </select>
-                </div>
-
-                <label>Are you are a member of MSC, KIIT Chapter? </label>
-                <div className="form-group">
-                    <input type="checkbox"
-                            onChange = {this.onChangeMsc}/>
-                </div>
-
-                <div className="form-group"> 
-                    <label>Github Link: </label>
-                    <input type="url"
-                        required
-                        className="form-control"
-                        value={this.state.github}
-                        onChange={this.onChangeGithub}
-                        />
-                </div>
-
-                <div className="form-group"> 
-                    <label>Linkedin Link: </label>
-                    <input  type="url"
-                        required
-                        className="form-control"
-                        value={this.state.linkedin}
-                        onChange={this.onChangeLinkedin}
-                        />
-                </div>
-
-                <div className="form-group"> 
-                    <label>CV / Resume Link: </label>
-                    <input  type="url"
-                        required
-                        className="form-control"
-                        value={this.state.resume}
-                        onChange={this.onChangeResume}
-                        />
-                </div>
-
-                <div className="form-group"> 
-                    <label>Share the link of any of your work done: </label>
-                    <input  type="url"
-                        className="form-control"
-                        value={this.state.work}
-                        onChange={this.onChangeWork}
-                        />
-                </div>
-
-
-                <div className="form-group">
-                    <input type="submit" value="Register" className="btn btn-primary" />
-                </div>
-                </form>
             </div>
+
+
+
         )
     }
 }
