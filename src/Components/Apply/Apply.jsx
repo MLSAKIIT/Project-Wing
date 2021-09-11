@@ -288,9 +288,10 @@ export default class Apply extends Component {
 
 
                         </Row>
-                        <label className="label-text">Are you are a member of MSC, KIIT Chapter? </label>
-                        <div className="form-group">
+                        <div className="form-group">                        
+                        <label className="label-text">Are you are a member of MSC, KIIT Chapter? </label>{'  '}
                             <input type="checkbox"
+                                value={this.state.msc}
                                 onChange={this.onChangeMsc} />
                         </div>
 
