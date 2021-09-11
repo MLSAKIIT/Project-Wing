@@ -87,6 +87,9 @@ export default function Timeline() {
                
                 </VerticalTimeline>
             </Container>
+            <br></br>
+            <br></br>
+            <br></br>
         </div>
     )
 }

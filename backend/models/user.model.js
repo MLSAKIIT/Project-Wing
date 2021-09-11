@@ -6,13 +6,11 @@ const userSchema = new Schema({
     username: {
         type: String,
         required: true,
-        // unique: true,
         trim: true,
         minlength: 3
     },
     email: {
         type: String,
-        unique: true,
         lowercase: true,
         required: true,
         trim: true
@@ -35,6 +33,11 @@ const userSchema = new Schema({
         required: true,
         minlength: 4
     },
+    domain: {
+        type: String,  
+        required: true,  
+        trim: true, 
+    },
     msc: {
         type: String,        
     },
@@ -50,9 +53,14 @@ const userSchema = new Schema({
         trim: true,
         minlength: 3
     },
-    work: {
+    resume: {
         type: String,
         required: true,
+        trim: true,
+        minlength: 3
+    },
+    work: {
+        type: String,
         trim: true,
         minlength: 3
     },

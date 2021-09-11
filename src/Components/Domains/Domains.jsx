@@ -1,11 +1,11 @@
 import React from 'react'
-import '../Projects/Project.css'
+import '../Domains/Domains.css'
 import { Button } from 'react-bootstrap'
 import { Container, Col, Row } from 'react-bootstrap'
 
-export default function Project() {
+export default function Domains() {
     return (
-        <div className="projects" id="projects">
+        <div className="domains" id="domains">
 
             <style type="text/css">
                         {`
@@ -18,7 +18,7 @@ export default function Project() {
 
         <Container className="py-5 pro-cont">
         <br></br>
-            <h1 className="projects-text text-left grad-text">Projects</h1>
+            <h1 className="domains-text text-left grad-text">Domains</h1>
             <Row>
                 <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
                 <div class="flip-card-project">

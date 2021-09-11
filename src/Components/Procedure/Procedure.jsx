@@ -6,8 +6,10 @@ import promob from '../../images/promob.png'
 
 export default function Procedure() {
     return (
-        <div className="procedures">
-
+        <div className="procedures" id="procedure">
+            <br></br>
+            <br></br>
+            <br></br>
             <Container>
                 <h1 className="pro-text text-left grad-text">Procedure</h1>
 
