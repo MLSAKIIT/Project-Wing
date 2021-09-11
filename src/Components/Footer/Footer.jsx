@@ -16,8 +16,8 @@ export default function Footer() {
           <MDBContainer fluid className="text-center text-md-left">
             <MDBRow>
               <MDBCol md="3">
-                <img id="comlogo" className="com-logo" src={Logo1} style={{height:'150px'}} alt="MSC Logo"/>
-                <img id="comlogo" className="com-logo" src={logo} style={{height:'150px'}} alt="MSC Logo"/>
+                <img id="comlogo" className="com-logo" src={Logo1} style={{height:'130px'}} alt="MSC Logo"/>
+                <img id="comlogo" className="com-logo" src={logo} style={{height:'150px'}} alt="Project Wing Logo"/>
               </MDBCol>
               <MDBCol md="5">
                 <h3 className="title">Microsoft Student Community, KIIT Chapter</h3>
@@ -28,7 +28,7 @@ export default function Footer() {
               </MDBCol>
               <MDBCol md="4">
                 <h3 className="title">Connect with us at: </h3>
-                <div style={{display: "flex", justifyContent: "space-between", width: '90%', margin: '0 auto' }}>
+                <div style={{display: "flex", justifyContent: "space-between", width: '100%', margin: '0 auto' }}>
                 <p style={{fontFamily: 'DM Sans'}}>
                   Phone: <a href="tel:+919991114099"> +91-99911-14099</a> and <a href="tel:+919007173684">+91-90071-73684</a>
                 </p>
