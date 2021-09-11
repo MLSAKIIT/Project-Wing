@@ -35,7 +35,7 @@ router.route('/add').post((req, res) => {
     });
 
     newUser.save()
-        .then(() => res.json('User Added'))
+        .then(() => res.json('User Registered'))
         .catch(err => res.status(400).json('Error: ' + err));
 });
 

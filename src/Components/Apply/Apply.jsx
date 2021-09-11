@@ -122,8 +122,24 @@ export default class Apply extends Component {
         console.log(user);
 
         axios.post('http://localhost:5000/users/add', user)
-            .then(res => console.log(res.data));
+            .then(res => {
+                console.log(res.data);
+                alert(res.data);
+            });
 
+        // let error;
+        // try {
+        //     await axios.get('http://localhost:5000/users/add/404').catch(err => {
+        //     if (err.response.status === 404) {
+        //         throw new Error(`${err.config.url} not found`);
+        //     }
+        //     throw err;
+        //     });
+        // } catch (err) {
+        //     error = err;
+        // }
+        
+        // error.message; // "https://httpbin.org/status/404 not found"
 
         this.setState({
             username: '',
@@ -266,7 +282,7 @@ export default class Apply extends Component {
 
 
                 <div className="form-group">
-                    <input type="submit" value="Create User" className="btn btn-primary" />
+                    <input type="submit" value="Register" className="btn btn-primary" />
                 </div>
                 </form>
             </div>

@@ -14,7 +14,8 @@ import Procedure from './Components/Procedure/Procedure';
 import FAQ from './Components/FAQ/FAQ';
 import Timeline from './Components/Timeline/Timeline';
 import Apply from './Components/Apply/Apply';
-import CreateProject from './Components/CreateProject/CreateProject';
+import Domains from './Components/Domains/Domains';
+import Rules from './Components/Rules/Rules';
 
 AOS.init();
 
@@ -32,9 +33,6 @@ function App() {
               <Apply/>
             </Route>
             
-            {/* <Route path="/createproject">
-              <CreateProject/>
-            </Route> */}
             
             <Route path="/">
               <Landing/>
@@ -45,7 +43,11 @@ function App() {
               <hr className="divver"/>
               <Procedure />
               <hr className="divver"/>
+              <Domains/>
+              <hr className="divver"/>
               <Project/>
+              <hr className="divver"/>
+              <Rules/>
               <hr className="divver"/>
               <FAQ />
             </Route>

@@ -3,7 +3,6 @@ import '../Landing/Landing.css'
 
 import { Container, Row, Col } from 'react-bootstrap'
 import { Button } from 'react-bootstrap'
-import discord from '../../images/discord2.png'
 import ParticleBackground from '../ParticleBackground/ParticleBackground'
 
 
@@ -30,16 +29,12 @@ export default function Landing() {
                     `}
                     </style>
 
-
-
-
-
                     <h1 className="topline" style={{ fontFamily: 'DM Sans' }}>Outshine your skills and develop your own sponsored projects</h1>
                     <h1 className="mainhead">PROJECT WING</h1>
                     <h1 className="mainhead2" style={{ fontFamily: 'DM Sans' }}>By Microsoft Student Community, KIIT Chapter</h1>
 
 
-                    <Button variant="outline-light" size="xxl" className="btn m-2" style={{ fontFamily: 'DM Sans' }} href="#Apply Now">
+                    <Button variant="outline-light" size="xxl" className="btn m-2" style={{ fontFamily: 'DM Sans' }} href="/apply">
                         Apply Now
                     </Button>
 

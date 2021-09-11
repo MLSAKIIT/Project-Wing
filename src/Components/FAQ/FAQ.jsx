@@ -14,7 +14,7 @@ export default function FAQ() {
                         <Accordion.Toggle className="acc-toggle" as={Card.Header} eventKey="0">
                             <div className="d-flex justify-content-between">
                                 <div>
-                                    1. Is MSC Project Wing a recruiting program?
+                                    1. Is MSC Project Wing a recruiting program for MSC, KIIT Chapter?
                                 </div>
                                 <span>+</span>
                             </div>

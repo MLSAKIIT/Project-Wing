@@ -2,8 +2,6 @@ import React from 'react'
 import '../Navbar/Navbar.css'
 import {Navbar, Nav} from 'react-bootstrap'
 
-// import gsoc from '../../images/gsoc.png'
-// import logo from '../../images/pw.png'
 import logo from '../../images/m_logo.png'
 
 
@@ -31,10 +29,12 @@ export default function NavBar() {
                 <Nav className="ml-auto" style={{fontFamily: 'Poppins'}}>
                 <Nav.Link className="nav-toggles" href="/#about">About</Nav.Link>
                 <Nav.Link className="nav-toggles" href="/#timeline">Timeline</Nav.Link>
+                <Nav.Link className="nav-toggles" href="/#procedure">Procedure</Nav.Link>
+                <Nav.Link className="nav-toggles" href="/#domains">Domains</Nav.Link>
                 <Nav.Link className="nav-toggles" href="/#projects">Projects</Nav.Link>
-                <Nav.Link className="nav-toggles" href="/#sponsors">Sponsors</Nav.Link>
-                <Nav.Link className="nav-toggles" href="/#mentors">Mentors</Nav.Link>
-                <Nav.Link className="nav-toggles" href="/organizers">Organizers</Nav.Link>
+                {/* <Nav.Link className="nav-toggles" href="/#sponsors">Sponsors</Nav.Link> */}
+                {/* <Nav.Link className="nav-toggles" href="/organizers">Organizers</Nav.Link> */}
+                <Nav.Link className="nav-toggles" href="/#rules">Rules</Nav.Link>
                 <Nav.Link className="nav-toggles" href="/#faq">FAQs</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
