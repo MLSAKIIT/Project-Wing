@@ -123,7 +123,7 @@ export default class Apply extends Component {
 
         console.log(user);
 
-        axios.post('http://localhost:5000/users/add', user)
+        axios.post('https://projectwingapi.herokuapp.com/users/add', user)
             .then(res => {
                 console.log(res.data);
                 alert(res.data);
