@@ -16,6 +16,7 @@ import Timeline from './Components/Timeline/Timeline';
 import Apply from './Components/Apply/Apply';
 import Domains from './Components/Domains/Domains';
 import Rules from './Components/Rules/Rules';
+import Perks from './Components/Perks/Perks';
 
 AOS.init();
 
@@ -46,6 +47,8 @@ function App() {
               <Domains/>
               <hr className="divver"/>
               <Project/>
+              {/* <hr className="divver"/>
+              <Perks/> */}
               <hr className="divver"/>
               <Rules/>
               <hr className="divver"/>

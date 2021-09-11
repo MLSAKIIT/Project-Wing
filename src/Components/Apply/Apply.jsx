@@ -228,8 +228,9 @@ export default class Apply extends Component {
                         <option value = "App">App Development</option>
                         <option value = "OS">Operating Systems</option>
                         <option value = "Dbms">Database Management</option>
-                        <option value = "AWS">AWS</option>
+                        <option value = "Deployment">AWS/Heroku/Azure</option>
                         <option value = "ML">Machine Learning</option>
+                        <option value = "AI">Artificial Intelligence</option>
                         <option value = "AR">AR / VR</option>
                         <option value = "DSA">Data Structures and Algorithms</option>
                     </select>
