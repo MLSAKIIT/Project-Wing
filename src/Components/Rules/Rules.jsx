@@ -14,7 +14,7 @@ export default function Rules() {
             <Card.Header>Rules & Code of Conduct</Card.Header>
             <Card.Body>
                 <Card.Title>1. Certificates will be awarded to the participants who complete their projects.</Card.Title>
-                <Card.Title>2. Participants will be selected for a project and will have the liberty to change the project in accordance with their lead. (T&C applied)</Card.Title>
+                <Card.Title>2. Participants will be selected for a project but will have the liberty to change the project in accordance with their lead. (T&C applied)</Card.Title>
                 <Card.Title>3. Every participant must work for 2 months to avail the perks of the project wing program.</Card.Title>
                 <Card.Title>4. Every learner should make a minimum of 10 Github contributions for their project.</Card.Title>
                 <Card.Title>5. Participants will be assigned a project based on their skill sets, they cannot choose their project.</Card.Title>

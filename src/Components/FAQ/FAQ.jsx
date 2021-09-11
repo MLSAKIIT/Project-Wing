@@ -20,7 +20,7 @@ export default function FAQ() {
                             </div>
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="0">
-                            <Card.Body className="card-body-acc">No. The accepted students will work on projects under the umbrella of MSC, they won’t be recruited into the society.
+                            <Card.Body className="card-body-acc">No. The accepted students will work on projects under the umbrella of MSC and can get an oppurtunity to join MSC, KIIT Chapter if they excel in their respective projects.
                             </Card.Body>
                         </Accordion.Collapse>
                     </Card>

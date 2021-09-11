@@ -1,6 +1,6 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-import Logo1 from '../../images/Logo1.png'
+import Logo1 from '../../images/MSC.png'
 import { SocialIcon } from 'react-social-icons';
 import logo from '../../images/main_logo.png'
 
@@ -28,8 +28,13 @@ export default function Footer() {
               </MDBCol>
               <MDBCol md="4">
                 <h3 className="title">Connect with us at: </h3>
-                <br/>
-                <div style={{display: "flex", justifyContent: "space-between", width: '75%', margin: '0 auto' }}>
+                <div style={{display: "flex", justifyContent: "space-between", width: '90%', margin: '0 auto' }}>
+                <p style={{fontFamily: 'DM Sans'}}>
+                  Phone: <a href="tel:+919991114099"> +91-99911-14099</a> and <a href="tel:+919007173684">+91-90071-73684</a>
+                </p>
+                </div>
+                <div style={{display: "flex", justifyContent: "space-between", width: '90%', margin: '0 auto' }}>
+                  <SocialIcon url="https://wa.me/+919007173684" network='whatsapp'/>
                   <SocialIcon url="mailto:kiit.mspc@outlook.com"/>
                   <SocialIcon url="https://www.linkedin.com/company/msakiit" target="_blank"/>
                   <SocialIcon url="https://www.instagram.com/msackiit/" target="_blank"/>
@@ -47,7 +52,7 @@ export default function Footer() {
               <a href="https://msackiit.tech/" target="__blank"> MSC KIIT </a>
               </MDBCol>
               <MDBCol>
-                Made with ❤ and ☕ by MSC Web Team.
+                Made with ❤ and ☕ by MSC, KIIT Chapter.
               </MDBCol>
               </MDBRow>
             </MDBContainer>
