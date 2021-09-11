@@ -2,13 +2,22 @@ import React from 'react'
 import '../Domains/Domains.css'
 import { Button } from 'react-bootstrap'
 import { Container, Col, Row } from 'react-bootstrap'
+import learner from '../../domain-img/learner.png'
+import appdev from '../../domain-img/appdev.png'
+import arvr from '../../domain-img/arvr.png'
+import backend from '../../domain-img/backend.png'
+import db from '../../domain-img/db.png'
+import deployment from '../../domain-img/deployment.png'
+import frontend from '../../domain-img/frontend.png'
+import ml from '../../domain-img/ml.png'
+import web from '../../domain-img/web.png'
 
 export default function Domains() {
     return (
         <div className="domains" id="domains">
 
             <style type="text/css">
-                        {`
+                {`
                         .btn-xxl {
                         padding: 1rem 1.5rem;
                         font-size: 1.5rem;
@@ -16,96 +25,85 @@ export default function Domains() {
                         `}
             </style>
 
-        <Container className="py-5 pro-cont">
-        <br></br>
-            <h1 className="domains-text text-left grad-text">Domains</h1>
-            <Row>
-                <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
-                <div class="flip-card-project">
-                    <div class="flip-card-inner-project">
-                            <div class="flip-card-front-project-nlp">
-                                {/* <h1 className="mainhead1-project">Natural Language Processing</h1> */}
-                                {/* <img src="https://canopylab.com/wp-content/uploads/2019/11/shutterstock_1455391502-2.jpg" /> */}
-                            </div>
-                            {/* <div class="flip-card-back-project">
-                            <h2><u>Project Description</u></h2>
-                            <h4>
-                                <ol>
-                                    
-                                    <li>Team Member 1</li>
-                                    <li>Team Member 2</li>
-                                    <li>Team Member 3</li>
-                                </ol>
-                            </h4>
-                            </div> */}
+            <Container className="py-5 pro-cont">
+                <br></br>
+                <h1 className="domains-text text-left grad-text">Domains</h1>
+                <Row>
+                    <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" md={4} className="pt-5">
+                        <div class="flip-card-project">
+                            <img src={learner} className="dom-img" width="100%"/>
+                            <h2 className="dom-text">Learner</h2>
                         </div>
-                    </div>
-                </Col>
-                <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
-                    <div class="flip-card-project">
-                        <div class="flip-card-inner-project">
-                            <div class="flip-card-front-project-wd">
-                            <h1 className="mainhead1-project">Project 2</h1>
-                            </div>
-                            <div class="flip-card-back-project">
-                            <h2><u>Project Description</u></h2>
-                            <h4>
-                                <ol>
-                                    
-                                    <li>Team Member 1</li>
-                                    <li>Team Member 2</li>
-                                    <li>Team Member 3</li>
-                                </ol>
-                            </h4>
-                            </div>
+                    </Col>
+
+                    <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" md={4} className="pt-5">
+                        <div class="flip-card-project">
+                        <img src={arvr} className="dom-img" width="100%"/>
+                        <h2 className="dom-text">AR/ VR</h2>
+                            
                         </div>
-                    </div>
-                </Col>
-            </Row>
-            <Row>
-                <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
-                <div class="flip-card-project">
-                    <div class="flip-card-inner-project">
-                            <div class="flip-card-front-project-ml">
-                                <h1 className="mainhead1-project">Project 3</h1>
-                            </div>
-                            <div class="flip-card-back-project">
-                            <h2><u>Project Description</u></h2>
-                            <h4>
-                                <ol>
-                                    
-                                    <li>Team Member 1</li>
-                                    <li>Team Member 2</li>
-                                    <li>Team Member 3</li>
-                                </ol>
-                            </h4>
-                            </div>
+                    </Col>
+
+                    <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" md={4} className="pt-5">
+                        <div class="flip-card-project">
+                        <img src={deployment} className="dom-img" width="100%"/>
+                        <h2 className="dom-text">Deployment</h2>
+                            
                         </div>
-                    </div>
-                </Col>
-                <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
-                    <div class="flip-card-project">
-                        <div class="flip-card-inner-project">
-                            <div class="flip-card-front-project-os">
-                            <h1 className="mainhead1-project">Project 4</h1>
-                            </div>
-                            <div class="flip-card-back-project">
-                            <h2><u>Project Description</u></h2>
-                            <h4>
-                                <ol>
-                                    
-                                    <li>Team Member 1</li>
-                                    <li>Team Member 2</li>
-                                    <li>Team Member 3</li>
-                                </ol>
-                            </h4>
-                            </div>
+                    </Col>
+                </Row>
+
+                <Row>
+                    <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" md={4} className="pt-5">
+                        <div class="flip-card-project">
+                        <img src={frontend} className="dom-img" width="100%"/>
+                        <h2 className="dom-text">Frontend</h2>
+                            
                         </div>
-                    </div>
-                </Col>
-            </Row>
-        </Container>
+                    </Col>
+                    <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" md={4} className="pt-5">
+                        <div class="flip-card-project">
+                        <img src={backend} className="dom-img" width="100%"/>
+                        <h2 className="dom-text">Backend</h2>
+                            
+                        </div>
+                    </Col>
+
+                    <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" md={4} className="pt-5">
+                        <div class="flip-card-project">
+                        <img src={web} className="dom-img" width="100%"/>
+                        <h2 className="dom-text">Web Technologies</h2>
+                            
+                        </div>
+                    </Col>
+                </Row>
+
+                <Row>
+                    <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" md={4} className="pt-5">
+                        <div class="flip-card-project">
+                        <img src={ml} className="dom-img" width="100%"/>
+                        <h2 className="dom-text">Machine Learning</h2>
+                            
+                        </div>
+                    </Col>
+                    <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" md={4} className="pt-5">
+                        <div class="flip-card-project">
+                        <img src={db} className="dom-img" width="100%"/>
+                        <h2 className="dom-text">Database</h2>
+                            
+                        </div>
+                    </Col>
+
+                    <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" md={4} className="pt-5">
+                        <div class="flip-card-project">
+                        <img src={appdev} className="dom-img" width="100%"/>
+                        <h2 className="dom-text">App Development</h2>
+                            
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
         </div>
-        
+
     )
 }

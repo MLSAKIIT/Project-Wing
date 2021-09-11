@@ -8,8 +8,8 @@ export default function About() {
         <div className="about" id="about">
 
             <Container>
+            <h1 className="header-abt text-left pt-5 grad-text">About</h1>
 
-            <h1 className="header1 text-left pt-5 grad-text">About</h1>
 
 
                 <h3 className="text-left pro-para">
