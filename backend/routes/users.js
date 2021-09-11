@@ -35,8 +35,14 @@ router.route('/add').post((req, res) => {
     });
 
     newUser.save()
-        .then(() => res.json('User Registered'))
-        .catch(err => res.status(400).json('Error: ' + err));
+        .then(() => {
+            res.json('User Registered')
+            alert('User Registered')
+        })
+        .catch(err => {
+            res.status(400).json('Error: ' + err)
+            alert(res.status(400))
+        });
 });
 
 module.exports = router;

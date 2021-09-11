@@ -17,7 +17,7 @@ export default function Timeline() {
                     contentStyle={{ background: '#078080', color: 'black' }}
                     contentArrowStyle={{ borderRight: '7px solid  #078080' }}
                     // date="Aug 29, 2021"
-                    iconStyle={{ background: '#078080', color: '#f45d48' }}
+                    iconStyle={{ background: '#f45d48', color: '#f45d48' }}
                     // icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title" style={{color: 'white'}}> MSC Project Wing LIVE</h3>
@@ -27,7 +27,7 @@ export default function Timeline() {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="Sept 12, 2021"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    iconStyle={{ background: '#f45d48', color: '#fff' }}
                     // icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">Student Applications Open</h3>
@@ -41,7 +41,7 @@ export default function Timeline() {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="Sept 24, 2021"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    iconStyle={{ background: '#f45d48', color: '#fff' }}
                     // icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">Student Applications Closes</h3>
@@ -55,7 +55,7 @@ export default function Timeline() {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="Sept 26, 2021"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    iconStyle={{ background: '#f45d48', color: '#fff' }}
                     // icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">Announcement of Project Teams</h3>
@@ -69,7 +69,7 @@ export default function Timeline() {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="Oct 2, 2021"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    iconStyle={{ background: '#f45d48', color: '#fff' }}
                     // icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">Coding</h3>
@@ -83,10 +83,10 @@ export default function Timeline() {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="Oct 30, 2021"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    iconStyle={{ background: '#f45d48', color: '#fff' }}
                     // icon={<WorkIcon />}
                 >
-                    <h3 className="vertical-timeline-element-title">Progress Evaluation Meet 1</h3>
+                    <h3 className="vertical-timeline-element-title">Progress Evaluation 1</h3>
                     {/* <h4 className="vertical-timeline-element-subtitle">MSC KIIT Chapter</h4> */}
                     <p>
                     Progress of each project will be evaluated.
@@ -97,10 +97,10 @@ export default function Timeline() {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="Nov 27, 2021"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    iconStyle={{ background: '#f45d48', color: '#fff' }}
                     // icon={<WorkIcon />}
                 >
-                    <h3 className="vertical-timeline-element-title">Progress Evaluation Meet 2</h3>
+                    <h3 className="vertical-timeline-element-title">Progress Evaluation 2</h3>
                     {/* <h4 className="vertical-timeline-element-subtitle">MSC KIIT Chapter</h4> */}
                     <p>
                     Progress of each project will be evaluated.
@@ -110,7 +110,7 @@ export default function Timeline() {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="Dec 2, 2021"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    iconStyle={{ background: '#f45d48', color: '#fff' }}
                     // icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">Deployment Starts</h3>
@@ -124,7 +124,7 @@ export default function Timeline() {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="Dec 16, 2021"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    iconStyle={{ background: '#f45d48', color: '#fff' }}
                     // icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">Deployment Closes</h3>
@@ -141,7 +141,7 @@ export default function Timeline() {
                     contentStyle={{ background: '#078080', color: 'black' }}
                     contentArrowStyle={{ borderRight: '7px solid  #078080' }}
                     // date="Aug 29, 2021"
-                    iconStyle={{ background: '#078080', color: '#f45d48' }}
+                    iconStyle={{ background: '#f45d48', color: '#f45d48' }}
                     // icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title" style={{color: 'white'}}> MSC Project Wing Exhibition</h3>
