@@ -14,8 +14,10 @@ router.route('/add').post((req, res) => {
     const college = req.body.college;
     const batch = Number(req.body.batch);
     const msc = req.body.msc;
+    const domain = req.body.domain;
     const github = req.body.github;
     const linkedin = req.body.linkedin;
+    const resume = req.body.resume;
     const work = req.body.work;
 
     const newUser = new User({
@@ -25,8 +27,10 @@ router.route('/add').post((req, res) => {
         college,
         batch,
         msc,
+        domain,
         github,
         linkedin,
+        resume,
         work
     });
 
