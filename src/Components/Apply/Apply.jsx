@@ -8,6 +8,24 @@ export default class Apply extends Component {
     constructor(props) {
         super(props);
 
+        var somevar = false;
+        var PTest = function () {
+            return new Promise(function (resolve, reject) {
+                if (somevar === true)
+                    resolve();
+                else
+                    reject();
+            });
+        }
+        var myfunc = PTest();
+        myfunc.then(function () {
+            console.log("Promise Resolved");
+        });
+        // See the Difference here
+        myfunc.catch(function () {
+            console.log("Promise Rejected");
+        });
+
         this.onChangeUsername = this.onChangeUsername.bind(this);
         this.onChangeEmail = this.onChangeEmail.bind(this);
         this.onChangePhone = this.onChangePhone.bind(this);
@@ -126,22 +144,10 @@ export default class Apply extends Component {
         axios.post('https://projectwingapi.herokuapp.com/users/add', user)
             .then(res => {
                 console.log(res.data);
-                alert(res.data);
+                alert("User Registered!! Yippeee");
+                window.location = "/";
             });
 
-        // let error;
-        // try {
-        //     await axios.get('http://localhost:5000/users/add/404').catch(err => {
-        //     if (err.response.status === 404) {
-        //         throw new Error(`${err.config.url} not found`);
-        //     }
-        //     throw err;
-        //     });
-        // } catch (err) {
-        //     error = err;
-        // }
-
-        // error.message; // "https://httpbin.org/status/404 not found"
 
         this.setState({
             username: '',
@@ -286,12 +292,11 @@ export default class Apply extends Component {
 
                             </Col>
 
-
                         </Row>
                         <div className="form-group">                        
                         <label className="label-text">Are you are a member of MSC, KIIT Chapter? </label>{'  '}
                             <input type="checkbox"
-                                value={this.state.msc}
+                                // checked={false}
                                 onChange={this.onChangeMsc} />
                         </div>
 
