@@ -26,7 +26,7 @@ export default function Timeline() {
             
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="Sept 12, 2021"
+                    date="Sept 13, 2021"
                     iconStyle={{ background: '#f45d48', color: '#fff' }}
                     // icon={<WorkIcon />}
                 >
@@ -46,9 +46,6 @@ export default function Timeline() {
                 >
                     <h3 className="vertical-timeline-element-title">Student Applications Closes</h3>
                     {/* <h4 className="vertical-timeline-element-subtitle">MSC KIIT Chapter</h4> */}
-                    <p>
-                    Students submit their applications to work on the projects.
-                    </p>
                 </VerticalTimelineElement>
                 
             
