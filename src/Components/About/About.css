@@ -60,3 +60,10 @@
         display: none;
     }
 }
+
+@media only screen and (max-width: 786px)
+{
+    .header-abt {
+      font-size: 3rem;
+    }
+}

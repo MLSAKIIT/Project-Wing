@@ -83,6 +83,12 @@ export default function FAQ() {
                         </Accordion.Collapse>
                     </Card>
                 </Accordion>
+
+                <div style={{ marginTop: '5rem'}}>
+                <Button variant="outline-light" size="xxl" className="btn m-2" style={{ fontFamily: 'DM Sans' }} href="/apply">
+                        Apply Now
+                </Button>
+                </div>
             </Container>
         </div>
     )
