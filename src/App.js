@@ -45,8 +45,8 @@ function App() {
               <Procedure />
               <hr className="divver"/>
               <Domains/>
-              <hr className="divver"/>
-              <Project/>
+              {/* <hr className="divver"/>
+              <Project/> */}
               {/* <hr className="divver"/>
               <Perks/> */}
               <hr className="divver"/>
