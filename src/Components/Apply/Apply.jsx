@@ -220,7 +220,6 @@ export default class Apply extends Component {
                                 <div className="form-group">
                                     <label className="label-text">CV / Resume Link: </label>
                                     <input type="url"
-                                        required
                                         className="form-control"
                                         value={this.state.resume}
                                         onChange={this.onChangeResume}
