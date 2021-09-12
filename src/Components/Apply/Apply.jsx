@@ -176,7 +176,7 @@ export default class Apply extends Component {
                         <Row>
                             <Col md={6}>
                                 <div className="form-group">
-                                    <label className="label-text">Name: </label>
+                                    <label className="label-text">Name: <span style={{color:"red"}}>*</span></label>
                                     <input type="text"
                                         required
                                         className="form-control"
@@ -186,7 +186,7 @@ export default class Apply extends Component {
                                 </div>
 
                                 <div className="form-group">
-                                    <label className="label-text">Phone: </label>
+                                    <label className="label-text">Phone:  <span style={{color:"red"}}>*</span></label>
                                     <input type="tel"
                                         required
                                         className="form-control"
@@ -196,7 +196,7 @@ export default class Apply extends Component {
                                 </div>
 
                                 <div className="form-group">
-                                    <label className="label-text">Batch: </label><br></br>
+                                    <label className="label-text">Batch:  <span style={{color:"red"}}>*</span></label><br></br>
                                     <select className="drop-sel" required value={this.state.batch} onChange={this.onChangeBatch}>
                                         <option></option>
                                         <option value="2025">2021 - 2025</option>
@@ -208,7 +208,7 @@ export default class Apply extends Component {
 
 
                                 <div className="form-group">
-                                    <label className="label-text">Github Link: </label>
+                                    <label className="label-text">Github Link:  <span style={{color:"red"}}>*</span></label>
                                     <input type="url"
                                         required
                                         className="form-control"
@@ -230,7 +230,7 @@ export default class Apply extends Component {
 
                             <Col md={6}>
                                 <div className="form-group">
-                                    <label className="label-text">Email: </label>
+                                    <label className="label-text">Email:  <span style={{color:"red"}}>*</span></label>
                                     <input type="email"
                                         required
                                         className="form-control"
@@ -240,7 +240,7 @@ export default class Apply extends Component {
                                 </div>
 
                                 <div className="form-group">
-                                    <label className="label-text">College: </label>
+                                    <label className="label-text">College:  <span style={{color:"red"}}>*</span></label>
                                     <input type="text"
                                         required
                                         className="form-control"
@@ -250,7 +250,7 @@ export default class Apply extends Component {
                                 </div>
 
                                 <div className="form-group">
-                                    <label className="label-text">Domain: </label><br></br>
+                                    <label className="label-text">Domain:  <span style={{color:"red"}}>*</span></label><br></br>
                                     <select className="drop-sel" required value={this.state.domain} onChange={this.onChangeDomain}>
                                         <option></option>
                                         <option value="learner">Learner</option>
@@ -269,7 +269,7 @@ export default class Apply extends Component {
 
 
                                 <div className="form-group">
-                                    <label className="label-text">Linkedin Link: </label>
+                                    <label className="label-text">Linkedin Link:  <span style={{color:"red"}}>*</span></label>
                                     <input type="url"
                                         required
                                         className="form-control"
