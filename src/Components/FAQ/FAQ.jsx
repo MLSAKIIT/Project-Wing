@@ -53,7 +53,7 @@ export default function FAQ() {
                             </div>
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="2">
-                            <Card.Body className="card-body-acc">The registration form will go live on 12th September 2021 on the MSC Project Wing official website and will be open till 24th September 2021.</Card.Body>
+                            <Card.Body className="card-body-acc">The registration form will go live on 13th September 2021 on the MSC Project Wing official website and will be open till 24th September 2021.</Card.Body>
                         </Accordion.Collapse>
                     </Card>
                     <Card className="card-acc">
