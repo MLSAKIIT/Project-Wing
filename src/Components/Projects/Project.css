@@ -65,11 +65,11 @@
     transform-style: preserve-3d;
   }
   
-  .flip-card-project-proj:hover .flip-card-inner-project {
+  /* .flip-card-project-proj:hover .flip-card-inner-project {
     transform: rotateY(180deg);
-  }
+  } */
   
-  .flip-card-front-project-nlp, .flip-card-front-project-wd, .flip-card-front-project-ml, .flip-card-front-project-os, .flip-card-back-project-frontend, .flip-card-back-project{
+  .flip-card-front-project-fs, .flip-card-front-project-algo, .flip-card-front-project-ml, .flip-card-front-project-arvr, .flip-card-front-project-os, .flip-card-front-project-app, .flip-card-front-project-ai, .flip-card-back-project{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -78,74 +78,58 @@
     border-radius: 20px;
   }
   
-  .flip-card-front-project-nlp {
+  .flip-card-front-project-fs {
     background: url("../../project-img/Coding-project.svg");
+    background-color:  rgb(232, 145, 52) ;
     background-size: 100% 100%;
-    /* animation: gradient 8s ease infinite; */
     color: white;
     padding: 1rem;
   }
 
-  .flip-card-front-project-wd {
+  .flip-card-front-project-algo {
     background: url("../../project-img/algorithm-project-01.svg");
+    background-color: #d4ecff;
     background-size: 100% 100%;
-    /* animation: gradient 8s ease infinite; */
     color: white;
     padding: 1rem;
   }
 
   .flip-card-front-project-ml {
     background: url("../../project-img/ML-project-01.svg");
+    background-color: #f4413c;
     background-size: 100% 100%;
-    /* animation: gradient 8s ease infinite; */
+    color: white;
+    padding: 1rem;
+  }
+
+  .flip-card-front-project-arvr {
+    background: url("../../project-img/ArVr-project-01.svg");
+    background-color: #a430a5;
+    background-size: 100% 100%;
     color: white;
     padding: 1rem;
   }
 
   .flip-card-front-project-os {
     background: url("../../project-img/Operating\ system-project.svg");
+    background-color: #c77309;
     background-size: 100% 100%;
-    /* animation: gradient 8s ease infinite; */
     color: white;
     padding: 1rem;
   }
 
-  .flip-card-front-project-frontend {
-    background: url("../../project-img/Artificial\ intelligence-project.svg");
+  .flip-card-front-project-app {
+    background: url("../../project-img/app\ development-project.svg");
+    background-color: #3bb4bc;
     background-size: 100% 100%;
-    /* animation: gradient 8s ease infinite; */
     color: white;
     padding: 1rem;
   }
 
   .flip-card-front-project-ai {
     background: url("../../project-img/Artificial\ intelligence-project.svg");
+    background-color: #7693a0;
     background-size: 100% 100%;
-    /* animation: gradient 8s ease infinite; */
-    color: white;
-    padding: 1rem;
-  }
-
-  .flip-card-front-project-os {
-    background: url("../../project-img/Operating\ system-project.svg");
-    background-size: 100% 100%;
-    /* animation: gradient 8s ease infinite; */
-    color: white;
-    padding: 1rem;
-  }
-
-  .flip-card-front-project-os {
-    background: url("../../project-img/Operating\ system-project.svg");
-    background-size: 100% 100%;
-    /* animation: gradient 8s ease infinite; */
-    color: white;
-    padding: 1rem;
-  }
-
-  .flip-card-front-project-os {
-    background: url("../../project-img/Operating\ system-project.svg");
-    background-size: 100% 100%;
-    /* animation: gradient 8s ease infinite; */
     color: white;
     padding: 1rem;
   }
@@ -201,13 +185,17 @@
   
   .mainhead1-project {
     
-    color: black;
+    color: white;
+    font-weight: 700 !important;
+    text-shadow: 4px 4px 2px black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     font-size: 2vmax;
     text-align: center;
     /* font-weight: 600 !important; */
     position: absolute;
     top: 50%;
-    left: 0;
+    left: 0%;
     transform: translateY(-65%);
   }
 

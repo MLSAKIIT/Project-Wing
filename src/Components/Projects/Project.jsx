@@ -2,6 +2,7 @@ import React from 'react'
 import '../Projects/Project.css'
 import { Button } from 'react-bootstrap'
 import { Container, Col, Row } from 'react-bootstrap'
+import imgs from '../../project-img/Coding-project.svg'
 
 export default function Project() {
     return (
@@ -16,22 +17,20 @@ export default function Project() {
                         `}
             </style>
 
-            <Container className="py-5 pro-cont">
+            <Container className="pb-5 pro-cont">
                 <br></br>
                 <h1 className="projects-text text-left grad-text">Projects</h1>
                 <Row>
                     <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
                         <div class="flip-card-project-proj">
                             <div class="flip-card-inner-project">
-                                <div class="flip-card-front-project-frontend">
+                                <div class="flip-card-front-project-fs">
                                 <h1 className="mainhead1-project">MSC Code Portal (Full Stack)</h1>
-
                                 </div>
                                 <div class="flip-card-back-project">
                                     <h2><u>Project Description</u></h2>
                                     <h4>
                                         <ol>
-
                                             <li>Team Member 1</li>
                                             <li>Team Member 2</li>
                                             <li>Team Member 3</li>
@@ -172,11 +171,13 @@ export default function Project() {
                             </div>
                         </div>
                     </Col>
+
                     <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
                         <div class="flip-card-project-proj">
                             <div class="flip-card-inner-project">
-                                <div class="flip-card-front-project-wd">
-                                    <h1 className="mainhead1-project">Resuminest (Website)</h1>
+                                <div class="flip-card-front-project-app">
+                                <h1 className="mainhead1-project">Dosome App (App)</h1>
+                                
                                 </div>
                                 <div class="flip-card-back-project">
                                     <h2><u>Project Description</u></h2>
@@ -193,12 +194,12 @@ export default function Project() {
                         </div>
                     </Col>
 
+
                     <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
                         <div class="flip-card-project-proj">
                             <div class="flip-card-inner-project">
-                                <div class="flip-card-front-project-app">
-                                <h1 className="mainhead1-project">Dosome App (App)</h1>
-                                
+                                <div class="flip-card-front-project-fs">
+                                    <h1 className="mainhead1-project">Resuminest (Website)</h1>
                                 </div>
                                 <div class="flip-card-back-project">
                                     <h2><u>Project Description</u></h2>
