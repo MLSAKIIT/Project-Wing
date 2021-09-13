@@ -1,6 +1,6 @@
 # Project-Wing
 MSC Project Wing Official Website
-Color Pallete: https://www.happyhues.co/palettes/8'
+Color Pallete: https://www.happyhues.co/palettes/8
 
 Design File: https://www.figma.com/file/sKGuryHmDETtBc5aWUzPu5/MSC-Project-Wing?node-id=0%3A1
 
@@ -22,11 +22,6 @@ Tech Stack Used:
 Navbar  
 Landing  
 Timeline
-
-## Sections Left: 
-
 Apply Now Form
-Sponsors
-Organizers
 FAQs
 
