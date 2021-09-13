@@ -31,7 +31,7 @@ export default function NavBar() {
                 <Nav.Link className="nav-toggles" href="/#timeline">Timeline</Nav.Link>
                 <Nav.Link className="nav-toggles" href="/#procedure">Procedure</Nav.Link>
                 <Nav.Link className="nav-toggles" href="/#domains">Domains</Nav.Link>
-                {/* <Nav.Link className="nav-toggles" href="/#projects">Projects</Nav.Link> */}
+                <Nav.Link className="nav-toggles" href="/#projects">Projects</Nav.Link>
                 {/* <Nav.Link className="nav-toggles" href="/#sponsors">Sponsors</Nav.Link> */}
                 {/* <Nav.Link className="nav-toggles" href="/organizers">Organizers</Nav.Link> */}
                 <Nav.Link className="nav-toggles" href="/#rules">Rules</Nav.Link>
