@@ -18,7 +18,7 @@ export default function Rules() {
                 <Card.Title>3. Every participant must work for 2 months to avail the perks of the project wing program.</Card.Title>
                 <Card.Title>4. Every learner should make a minimum of 10 Github contributions for their project.</Card.Title>
                 <Card.Title>5. Participants will be assigned a project based on their skill sets, they cannot choose their project.</Card.Title>
-                <Card.Title>6. The registration window will be open from 12th September 2021 to 24th September 2021. Recruitment will be through application screening and interviews.</Card.Title>
+                <Card.Title>6. The registration window will be open from 13th September 2021 to 24th September 2021. Recruitment will be through application screening and interviews.</Card.Title>
                 <Card.Title>7. Every participant must complete the tasks assigned to them on time. Any kind of long term delay or inactivity will lead to dismissal from the team.</Card.Title>
                 <Card.Title>8. The MSC project wing is a University level event. Only students studying in Kalinga Institute of Industrial Technology, Bhubaneshwar can participate.</Card.Title>
                 {/* <Card.Title>9. Eligibility criteria: Undergraduate or graduate student from India with any major.</Card.Title> */}
