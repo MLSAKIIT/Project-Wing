@@ -35,9 +35,9 @@ export default function Footer() {
                 </div>
                 <div style={{display: "flex", justifyContent: "space-between", width: '90%', margin: '0 auto' }}>
                   <SocialIcon url="https://wa.me/+919007173684" network='whatsapp'/>
-                  <SocialIcon url="mailto:kiit.mspc@outlook.com"/>
+                  <SocialIcon url="mailto:msckiit@outlook.com"/>
                   <SocialIcon url="https://www.linkedin.com/company/msakiit" target="_blank"/>
-                  <SocialIcon url="https://www.instagram.com/msackiit/" target="_blank"/>
+                  <SocialIcon url="https://www.instagram.com/msckiit/" target="_blank"/>
                   <SocialIcon url="https://www.facebook.com/msakiit" target="_blank"/>
                   <SocialIcon url="https://twitter.com/msakiit?s=08" target="_blank"/>
                 </div>
