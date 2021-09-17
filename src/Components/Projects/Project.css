@@ -238,9 +238,6 @@
   
   @media only screen and (max-width: 786px)
   {
-  .flip-card-project-proj:active .flip-card-inner-project {
-      transform: rotateY(180deg);
-    }
   
   .flip-card-back-project h4 {
     font-size: 1.2rem;
