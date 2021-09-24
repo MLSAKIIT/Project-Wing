@@ -30,9 +30,9 @@ function App() {
         <div className="content">
           <Switch>
 
-            <Route path="/apply">
+            {/* <Route path="/apply">
               <Apply/>
-            </Route>
+            </Route> */}
             
             
             <Route path="/">
