@@ -51,7 +51,7 @@ export default function Timeline() {
             
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="Sept 26, 2021"
+                    date="Sept 29, 2021"
                     iconStyle={{ background: '#f45d48', color: '#fff' }}
                     // icon={<WorkIcon />}
                 >
