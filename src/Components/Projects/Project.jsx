@@ -25,7 +25,7 @@ export default function Project() {
                         <div class="flip-card-project-proj">
                             <div class="flip-card-inner-project">
                                 <div class="flip-card-front-project-fs">
-                                <h1 className="mainhead1-project">MSC Code Portal (Full Stack)</h1>
+                                <h1 className="mainhead1-project">MSC Code Portal</h1>
                                 </div>
                                 <div class="flip-card-back-project">
                                     <h2><u>Project Description</u></h2>
@@ -45,7 +45,7 @@ export default function Project() {
                         <div class="flip-card-project-proj">
                             <div class="flip-card-inner-project">
                                 <div class="flip-card-front-project-algo">
-                                    <h1 className="mainhead1-project">Algorithm VE (Algorithms)</h1>
+                                    <h1 className="mainhead1-project">Algorithm VE</h1>
                                 </div>
                                 <div class="flip-card-back-project">
                                     <h2><u>Project Description</u></h2>
@@ -66,7 +66,7 @@ export default function Project() {
                         <div class="flip-card-project-proj">
                             <div class="flip-card-inner-project">
                                 <div class="flip-card-front-project-ml">
-                                <h1 className="mainhead1-project">Gesture Navigation System (ML)</h1>
+                                <h1 className="mainhead1-project">Gesture Navigation System</h1>
 
                                 </div>
                                 <div class="flip-card-back-project">
@@ -90,7 +90,7 @@ export default function Project() {
                         <div class="flip-card-project-proj">
                             <div class="flip-card-inner-project">
                                 <div class="flip-card-front-project-arvr">
-                                    <h1 className="mainhead1-project">Mission Mars (AR/VR)</h1>
+                                    <h1 className="mainhead1-project">Mission Mars</h1>
                                 </div>
                                 <div class="flip-card-back-project">
                                     <h2><u>Project Description</u></h2>
@@ -110,7 +110,7 @@ export default function Project() {
                         <div class="flip-card-project-proj">
                             <div class="flip-card-inner-project">
                                 <div class="flip-card-front-project-os">
-                                    <h1 className="mainhead1-project">x86_64-decOS (OS)</h1>
+                                    <h1 className="mainhead1-project">x86_64-decOS</h1>
                                 </div>
                                 <div class="flip-card-back-project">
                                     <h2><u>Project Description</u></h2>
@@ -131,7 +131,7 @@ export default function Project() {
                         <div class="flip-card-project-proj">
                             <div class="flip-card-inner-project">
                                 <div class="flip-card-front-project-app">
-                                <h1 className="mainhead1-project">Music Recommendation Web App (App)</h1>
+                                <h1 className="mainhead1-project">Music Recommendation Web App</h1>
 
                                 </div>
                                 <div class="flip-card-back-project">
@@ -155,7 +155,7 @@ export default function Project() {
                         <div class="flip-card-project-proj">
                             <div class="flip-card-inner-project">
                                 <div class="flip-card-front-project-ai">
-                                    <h1 className="mainhead1-project">Debaterx (AI)</h1>
+                                    <h1 className="mainhead1-project">Debaterx</h1>
                                 </div>
                                 <div class="flip-card-back-project">
                                     <h2><u>Project Description</u></h2>
@@ -176,7 +176,7 @@ export default function Project() {
                         <div class="flip-card-project-proj">
                             <div class="flip-card-inner-project">
                                 <div class="flip-card-front-project-app">
-                                <h1 className="mainhead1-project">Dosome App (App)</h1>
+                                <h1 className="mainhead1-project">The Transcriptor</h1>
                                 
                                 </div>
                                 <div class="flip-card-back-project">
@@ -199,7 +199,7 @@ export default function Project() {
                         <div class="flip-card-project-proj">
                             <div class="flip-card-inner-project">
                                 <div class="flip-card-front-project-fs">
-                                    <h1 className="mainhead1-project">Resuminest (Website)</h1>
+                                    <h1 className="mainhead1-project">Resuminest</h1>
                                 </div>
                                 <div class="flip-card-back-project">
                                     <h2><u>Project Description</u></h2>
