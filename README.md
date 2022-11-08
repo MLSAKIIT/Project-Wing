@@ -20,7 +20,9 @@ Tech Stack Used:
 
 3. Modify registration.py to hold google api json name and sample shared email (defaults are Tridib Das' email ID and API cred.json)
 
-4. In the project directory, run : 'flask run' (use production mode).
+4. In the project directory, run : 'pip install -r regrequirements.txt'.
+
+5. In the project directory, run : 'flask run' (use production mode).
 
 ## Important Notice
 
