@@ -8,6 +8,7 @@ Tech Stack Used:
 
 - React.js
 - React Bootstrap
+- Flask and GSheets
 
 ## 🛠 Installation and Setup Instructions
 
@@ -16,6 +17,16 @@ Tech Stack Used:
 1. Installation: run `npm install -f` (-f is to force install as some packages are giving errors)
 
 2. In the project directory, you can run: `npm start`
+
+3. Modify registration.py to hold google api json name and sample shared email (defaults are Tridib Das' email ID and API cred.json)
+
+4. In the project directory, run : 'flask run' (use production mode).
+
+## Important Notice
+
+API endpoints:
+1. localhost:5000/register - to add a registration
+2. localhost:5000/create - create the google sheets folder
 
 ## Sections Ready and fully Responsive :
 
