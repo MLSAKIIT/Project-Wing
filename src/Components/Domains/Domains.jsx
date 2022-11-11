@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Domains/Domains.css'
-import { Button } from 'react-bootstrap'
 import { Container, Col, Row } from 'react-bootstrap'
 import learner from '../../domain-img/learner.png'
 import appdev from '../../domain-img/appdev.png'
@@ -31,14 +30,14 @@ export default function Domains() {
                 <Row>
                     <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" md={4} className="pt-5">
                         <div class="flip-card-project">
-                            <img src={learner} className="dom-img" width="100%"/>
+                            <img alt=""  src={learner} className="dom-img" width="100%"/>
                             <h2 className="dom-text">Learner</h2>
                         </div>
                     </Col>
 
                     <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" md={4} className="pt-5">
                         <div class="flip-card-project">
-                        <img src={arvr} className="dom-img" width="100%"/>
+                        <img alt=""  src={arvr} className="dom-img" width="100%"/>
                         <h2 className="dom-text">AR/ VR</h2>
                             
                         </div>
@@ -46,7 +45,7 @@ export default function Domains() {
 
                     <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" md={4} className="pt-5">
                         <div class="flip-card-project">
-                        <img src={deployment} className="dom-img" width="100%"/>
+                        <img alt=""  src={deployment} className="dom-img" width="100%"/>
                         <h2 className="dom-text">Deployment</h2>
                             
                         </div>
@@ -56,14 +55,14 @@ export default function Domains() {
                 <Row>
                     <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" md={4} className="pt-5">
                         <div class="flip-card-project">
-                        <img src={frontend} className="dom-img" width="100%"/>
+                        <img alt=""  src={frontend} className="dom-img" width="100%"/>
                         <h2 className="dom-text">Frontend</h2>
                             
                         </div>
                     </Col>
                     <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" md={4} className="pt-5">
                         <div class="flip-card-project">
-                        <img src={backend} className="dom-img" width="100%"/>
+                        <img alt=""  src={backend} className="dom-img" width="100%"/>
                         <h2 className="dom-text">Backend</h2>
                             
                         </div>
@@ -71,7 +70,7 @@ export default function Domains() {
 
                     <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" md={4} className="pt-5">
                         <div class="flip-card-project">
-                        <img src={web} className="dom-img" width="100%"/>
+                        <img alt=""  src={web} className="dom-img" width="100%"/>
                         <h2 className="dom-text">Web Technologies</h2>
                             
                         </div>
@@ -81,14 +80,14 @@ export default function Domains() {
                 <Row>
                     <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" md={4} className="pt-5">
                         <div class="flip-card-project">
-                        <img src={ml} className="dom-img" width="100%"/>
+                        <img alt=""  src={ml} className="dom-img" width="100%"/>
                         <h2 className="dom-text">Machine Learning</h2>
                             
                         </div>
                     </Col>
                     <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" md={4} className="pt-5">
                         <div class="flip-card-project">
-                        <img src={db} className="dom-img" width="100%"/>
+                        <img alt=""  src={db} className="dom-img" width="100%"/>
                         <h2 className="dom-text">Database</h2>
                             
                         </div>
@@ -96,7 +95,7 @@ export default function Domains() {
 
                     <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" md={4} className="pt-5">
                         <div class="flip-card-project">
-                        <img src={appdev} className="dom-img" width="100%"/>
+                        <img alt=""  src={appdev} className="dom-img" width="100%"/>
                         <h2 className="dom-text">App Development</h2>
                             
                         </div>

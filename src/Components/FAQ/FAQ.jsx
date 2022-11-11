@@ -1,6 +1,6 @@
 import React from 'react'
 import { Accordion, Card } from 'react-bootstrap'
-import { Container, Col, Row, Button } from 'react-bootstrap'
+import { Container, Button } from 'react-bootstrap'
 import '../FAQ/FAQ.css'
 
 export default function FAQ() {
@@ -85,8 +85,8 @@ export default function FAQ() {
                 </Accordion>
 
                 <div style={{ marginTop: '5rem'}}>
-                <Button variant="outline-light" size="xxl" className="btn m-2" style={{ fontFamily: 'DM Sans' }} href="">
-                        Registrations Closed
+                <Button variant="outline-light" size="xxl" className="btn m-2" style={{ fontFamily: 'DM Sans' }} href="/apply">
+                    Apply Now
                 </Button>
                 </div>
             </Container>

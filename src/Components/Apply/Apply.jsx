@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "../Apply/Apply.css"
-import { Row, Col, Form } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 
 export default class Apply extends Component {
 
@@ -141,7 +141,8 @@ export default class Apply extends Component {
 
         console.log(user);
 
-        axios.post('https://projectwingapi.herokuapp.com/users/add', user)
+        // axios.post('https://projectwingapi.herokuapp.com/users/add', user)
+        axios.post('http://localhost:8080/users/add', user)
             .then(res => {
                 console.log(res.data);
                 alert("User Registered!! Yippeee");

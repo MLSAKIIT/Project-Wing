@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Landing/Landing.css'
 
-import { Container, Row, Col } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import { Button } from 'react-bootstrap'
 import ParticleBackground from '../ParticleBackground/ParticleBackground'
 
@@ -34,14 +34,14 @@ export default function Landing() {
                     <h1 className="mainhead2" style={{ fontFamily: 'DM Sans' }}>By Microsoft Student Community, KIIT Chapter</h1>
 
 
-                    <Button variant="outline-light" size="xxl" className="btn m-2" style={{ fontFamily: 'DM Sans' }} href="">
-                        Registrations Closed
+                    <Button variant="outline-light" size="xxl" className="btn m-2" style={{ fontFamily: 'DM Sans' }} href="/apply">
+                        Apply Now
                     </Button>
 
                 </Col>
 
                 <Col sm={6}>
-                    <img src={pro} width="100%" className="Landingimg-img" />
+                    <img alt=""  src={pro} width="100%" className="Landingimg-img" />
                 </Col>
 
             </Row>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import pro from '../../images/Abt.png'
 
 export default function About() {
@@ -18,7 +18,7 @@ export default function About() {
                             This program has been started with the vision of providing a base to the start-up ideas or product ideas within the developer community.
                 </h3>
 
-                <img src={pro} width="100%" className="pro-img" />
+                <img alt=""  src={pro} width="100%" className="pro-img" />
 
             </Container>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Accordion, Card } from 'react-bootstrap'
-import { Container, Col, Row, Button } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import '../Rules/Rules.css'
 
 export default function Rules() {

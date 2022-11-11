@@ -1,8 +1,7 @@
 import React from 'react'
 import '../Projects/Project.css'
-import { Button } from 'react-bootstrap'
 import { Container, Col, Row } from 'react-bootstrap'
-import imgs from '../../project-img/Coding-project.svg'
+// import imgs from '../../project-img/Coding-project.svg'
 
 export default function Project() {
     return (

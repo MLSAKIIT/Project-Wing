@@ -19,8 +19,8 @@ export default function Procedure() {
                     MSC Project Wing is an online program aiming to hone the technical skills of students by exposing them to real-world software development scenarios. The motive of the program is to add more value to your projects by gaining sponsorships. Students will work in teams over a period of 2 months to build a project of industrial value.
                 </h3>
 
-                <img src={pro} width="100%" className="pro-img" />
-                <img src={promob} width="100%" className="pro-img-mob" />
+                <img alt=""  src={pro} width="100%" className="pro-img" />
+                <img alt=""  src={promob} width="100%" className="pro-img-mob" />
 
             </Container>
 
