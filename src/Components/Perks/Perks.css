@@ -1,71 +1,66 @@
-#perks-para{
-    line-height: 200%;
-    text-align: center;
+#perks-para {
+  line-height: 200%;
+  text-align: center;
 }
 
 .perks {
-    height: 100%;
-    padding: 5rem 0;
-    position: relative;
-    font-family: "DM Sans", sans-serif;
+  height: 100%;
+  padding: 5rem 0;
+  position: relative;
+  font-family: "DM Sans", sans-serif;
 }
 
 .pw-img {
-    max-width: 35vmax;
-    border-radius: 20px;
+  max-width: 35vmax;
+  border-radius: 20px;
 }
 
 .para {
-    color: #222525;
-    font-size: 1.5rem;
+  color: #222525;
+  font-size: 1.5rem;
 }
 
 .header1 {
-    position: absolute;
-    font-size: 5rem;
-    font-weight: 700 !important;
-    transform: rotate(270deg);
-    top: 40%;
-    right: 85%;
-    color: #078080;
+  position: absolute;
+  font-size: 5rem;
+  font-weight: 700 !important;
+  transform: rotate(270deg);
+  top: 40%;
+  right: 85%;
+  color: #ff914d;
 }
 
 .pro-img {
-    margin: 5rem 2rem;
+  margin: 5rem 2rem;
 }
-
 
 .pro-text {
-    position: absolute;
-    font-size: 5rem;
-    font-weight: 700 !important;
-    transform: rotate(270deg);
-    top: 40%;
-    right: 78%;
-    color: #078080;
+  position: absolute;
+  font-size: 5rem;
+  font-weight: 700 !important;
+  transform: rotate(270deg);
+  top: 40%;
+  right: 78%;
+  color: #ff914d;
 }
 
-
-
 @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
   }
-  
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
-@media only screen and (max-width: 1200px)
-{
-    .header1 {
-        text-align: center !important;
-    }
-    .header1::before {
-        display: none;
-    }
+@media only screen and (max-width: 1200px) {
+  .header1 {
+    text-align: center !important;
+  }
+  .header1::before {
+    display: none;
+  }
 }

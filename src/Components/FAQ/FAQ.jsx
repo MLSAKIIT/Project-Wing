@@ -53,7 +53,7 @@ export default function FAQ() {
                             </div>
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="2">
-                            <Card.Body className="card-body-acc">The registration form will go live on 13th September 2021 on the MSC Project Wing official website and will be open till 24th September 2021.</Card.Body>
+                            <Card.Body className="card-body-acc">The registration form will go live on 13th November 2022 on the MSC Project Wing official website and will be open till 18th November 2022.</Card.Body>
                         </Accordion.Collapse>
                     </Card>
                     <Card className="card-acc">
@@ -85,8 +85,8 @@ export default function FAQ() {
                 </Accordion>
 
                 <div style={{ marginTop: '5rem'}}>
-                <Button variant="outline-light" size="xxl" className="btn m-2" style={{ fontFamily: 'DM Sans' }} href="/apply">
-                    Apply Now
+                <Button variant="outline-light" size="xxl" className="btn m-2" style={{ fontFamily: 'DM Sans' }} href="">
+                    Coming Soon
                 </Button>
                 </div>
             </Container>

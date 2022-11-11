@@ -1,34 +1,32 @@
 .rules {
-    /* background-color: black; */
-    height: 100%;
-    position: relative;
-    font-family: 'DM Sans', sans-serif;
+  /* background-color: black; */
+  height: 100%;
+  position: relative;
+  font-family: "DM Sans", sans-serif;
 }
 
 .accordion {
-    padding: 1rem;
-    text-align: left;
-    font-size: 24px;
-    cursor: pointer;
+  padding: 1rem;
+  text-align: left;
+  font-size: 24px;
+  cursor: pointer;
 }
 
 .card-acc {
-    border: none;
-    background-color: #f8f5f2;
+  border: none;
+  background-color: #f8f5f2;
 }
 
 .card-body-acc {
-    
-    
-    background-size: 300% 300%;
-    animation: gradient 5s ease infinite;
+  background-size: 300% 300%;
+  animation: gradient 5s ease infinite;
 }
 
 .acc-toggle {
-    background: #f45d48;
-    border-radius: 0.5rem !important;
-    color: white;
-    margin: 1rem 0;
+  background: #4083eb;
+  border-radius: 0.5rem !important;
+  color: white;
+  margin: 1rem 0;
 }
 .rules-text {
   position: absolute;
@@ -37,7 +35,7 @@
   transform: rotate(270deg);
   top: 30%;
   right: 85%;
-  color: #078080;
+  color: #ff914d;
 }
 
 .org-header {
@@ -48,62 +46,56 @@
 .org-header::before {
   position: absolute;
   top: 50%;
-  right:23%;
+  right: 23%;
   overflow: hidden;
   width: 50rem;
   height: 3px;
-  content: '\a0';
+  content: "\a0";
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 200% 200%;
   animation: gradient 5s ease infinite;
 }
 
-@media only screen and (max-width: 1200px)
-{
+@media only screen and (max-width: 1200px) {
   .org-header {
-      text-align: center !important;
+    text-align: center !important;
   }
   .org-header::before {
-      display: none;
+    display: none;
   }
 }
 
-
-@media only screen and (max-width: 1400px)
-{
+@media only screen and (max-width: 1400px) {
   .rules-text {
-      position: unset;
-      transform: rotate(0deg);
-      font-size: 5rem;
-      font-weight: 700 !important;
-      color: #078080;
+    position: unset;
+    transform: rotate(0deg);
+    font-size: 5rem;
+    font-weight: 700 !important;
+    color: #ff914d;
   }
 }
-
-@media only screen and (max-width: 786px)
-{
-    .rules-text {
-      font-size: 3rem;
-    }
-}
-
-
-
-@keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
 
 @media only screen and (max-width: 786px) {
-    .accordion {
-        padding: 2rem 0;
-        font-size: 16px;
-    }
+  .rules-text {
+    font-size: 3rem;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .accordion {
+    padding: 2rem 0;
+    font-size: 16px;
+  }
 }

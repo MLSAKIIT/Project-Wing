@@ -1,38 +1,35 @@
 .navbar {
-    background-color: rgb(244, 93, 72, 0.3);
-    backdrop-filter: blur(15px);
-    color: #f8f5f2;
-  }
-  
-  .nav-links {
-    margin-right: 3rem;
-  }
-  
+  backdrop-filter: blur(15px);
+  color: #f8f5f2;
+}
+
+.nav-links {
+  margin-right: 3rem;
+}
+
+.nav-name {
+  color: #4083eb;
+}
+
+.nav-toggles {
+  color: #ff914d !important;
+}
+
+.nav-toggles:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease;
+}
+
+@media only screen and (max-width: 786px) {
   .nav-name {
-      color: #f45d48;
+    display: none;
   }
 
-  .nav-toggles {
-    color: #078080 !important;
+  .nav-links {
+    margin-right: unset;
   }
-  
-  .nav-toggles:hover {
-      transform: scale(1.1);
-      transition: 0.2s ease;
+
+  .toggler {
+    border: none;
   }
-  
-  @media only screen and (max-width: 786px)
-  {
-    .nav-name {
-        display: none;
-    }
-  
-    .nav-links {
-      margin-right: unset;
-    }
-  
-    .toggler {
-      border: none;
-    }
-  }
-  
+}

@@ -207,10 +207,10 @@ export default class Apply extends Component {
                     onChange={this.onChangeBatch}
                   >
                     <option></option>
+                    <option value="2022">2022 - 2026</option>
                     <option value="2025">2021 - 2025</option>
                     <option value="2024">2020 - 2024</option>
                     <option value="2023">2019 - 2023</option>
-                    <option value="2022">2018 - 2022</option>
                   </select>
                 </div>
 

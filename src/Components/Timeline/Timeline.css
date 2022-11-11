@@ -1,15 +1,15 @@
-#timeline{
-    line-height: 200%;
+#timeline {
+  line-height: 200%;
 }
 
 .timeline {
-    background-color: #f8f5f2;
-    color: #222525;
-    position: relative;
+  background-color: #f8f5f2;
+  color: #222525;
+  position: relative;
 }
 
 .imaze {
-    width: 100%;
+  width: 100%;
 }
 
 .header {
@@ -19,42 +19,39 @@
   transform: rotate(270deg);
   top: 45%;
   right: 80%;
-  color: #078080;
+  color: #ff914d;
 }
 
 @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
   }
-  
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
-@media only screen and (max-width: 1400px)
-{
+@media only screen and (max-width: 1400px) {
   .para {
     text-align: center !important;
   }
-    .header {
-      position: unset;
-      transform: rotate(0deg);
-      font-size: 5rem;
-      font-weight: 700 !important;
-      color: #078080;
-    }
-    .header::after {
-        display: none;
-    }
+  .header {
+    position: unset;
+    transform: rotate(0deg);
+    font-size: 5rem;
+    font-weight: 700 !important;
+    color: #ff914d;
+  }
+  .header::after {
+    display: none;
+  }
 }
 
-@media only screen and (max-width: 786px)
-{
-    .header {
-      font-size: 3rem;
-    }
+@media only screen and (max-width: 786px) {
+  .header {
+    font-size: 3rem;
+  }
 }
