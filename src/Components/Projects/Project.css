@@ -64,13 +64,12 @@
     transform: rotateY(180deg);
   } */
 
-.flip-card-front-project-fs,
-.flip-card-front-project-algo,
-.flip-card-front-project-ml,
-.flip-card-front-project-arvr,
-.flip-card-front-project-os,
-.flip-card-front-project-app,
-.flip-card-front-project-ai,
+.flip-card-front-project-newext,
+.flip-card-front-project-collab,
+.flip-card-front-project-cicidation,
+.flip-card-front-project-fingsurfers,
+.flip-card-front-project-arcase,
+.flip-card-front-project-ddos,
 .flip-card-back-project {
   position: absolute;
   width: 100%;
@@ -80,57 +79,49 @@
   border-radius: 20px;
 }
 
-.flip-card-front-project-fs {
-  background: url("../../project-img/Coding-project.svg");
+.flip-card-front-project-newext {
+  background: url("../../project-img/2022/newsxt.png");
   background-color: rgb(232, 145, 52);
   background-size: 100% 100%;
   color: white;
   padding: 1rem;
 }
 
-.flip-card-front-project-algo {
-  background: url("../../project-img/algorithm-project-01.svg");
+.flip-card-front-project-collab {
+  background: url("../../project-img/2022/collab.png");
   background-color: #d4ecff;
   background-size: 100% 100%;
   color: white;
   padding: 1rem;
 }
 
-.flip-card-front-project-ml {
-  background: url("../../project-img/ML-project-01.svg");
+.flip-card-front-project-cicidation {
+  background: url("../../project-img/2022/CiCidation.png");
   background-color: #f4413c;
   background-size: 100% 100%;
   color: white;
   padding: 1rem;
 }
 
-.flip-card-front-project-arvr {
-  background: url("../../project-img/ArVr-project-01.svg");
+.flip-card-front-project-fingsurfers {
+  background: url("../../project-img/2022/fingsurfers.png");
   background-color: #a430a5;
   background-size: 100% 100%;
   color: white;
   padding: 1rem;
 }
 
-.flip-card-front-project-os {
-  background: url("../../project-img/Operating\ system-project.svg");
+.flip-card-front-project-arcase {
+  background: url("../../project-img/2022/ARCase.png");
   background-color: #c77309;
   background-size: 100% 100%;
   color: white;
   padding: 1rem;
 }
 
-.flip-card-front-project-app {
-  background: url("../../project-img/app\ development-project.svg");
+.flip-card-front-project-ddos {
+  background: url("../../project-img/2022/DDOS.png");
   background-color: #3bb4bc;
-  background-size: 100% 100%;
-  color: white;
-  padding: 1rem;
-}
-
-.flip-card-front-project-ai {
-  background: url("../../project-img/Artificial\ intelligence-project.svg");
-  background-color: #7693a0;
   background-size: 100% 100%;
   color: white;
   padding: 1rem;
@@ -210,7 +201,7 @@
   transform: translateY(-50%);
 }
 
-.svg-img {
+/* .svg-img {
   position: absolute;
   bottom: -10%;
   right: 0;
@@ -220,7 +211,7 @@
   position: absolute;
   bottom: -10%;
   right: -15%;
-}
+} */
 
 @keyframes shine {
   0% {

@@ -23,8 +23,8 @@ export default function Project() {
                     <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
                         <div class="flip-card-project-proj">
                             <div class="flip-card-inner-project">
-                                <div class="flip-card-front-project-fs">
-                                <h1 className="mainhead1-project">MSC Code Portal</h1>
+                                <div class="flip-card-front-project-newext">
+                                {/* <h1 className="mainhead1-project">Newext</h1> */}
                                 </div>
                                 <div class="flip-card-back-project">
                                     <h2><u>Project Description</u></h2>
@@ -43,73 +43,8 @@ export default function Project() {
                     <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
                         <div class="flip-card-project-proj">
                             <div class="flip-card-inner-project">
-                                <div class="flip-card-front-project-algo">
-                                    <h1 className="mainhead1-project">Algorithm VE</h1>
-                                </div>
-                                <div class="flip-card-back-project">
-                                    <h2><u>Project Description</u></h2>
-                                    <h4>
-                                        <ol>
-
-                                            <li>Team Member 1</li>
-                                            <li>Team Member 2</li>
-                                            <li>Team Member 3</li>
-                                        </ol>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                    </Col>
-
-                    <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
-                        <div class="flip-card-project-proj">
-                            <div class="flip-card-inner-project">
-                                <div class="flip-card-front-project-ml">
-                                <h1 className="mainhead1-project">Gesture Navigation System</h1>
-
-                                </div>
-                                <div class="flip-card-back-project">
-                                    <h2><u>Project Description</u></h2>
-                                    <h4>
-                                        <ol>
-
-                                            <li>Team Member 1</li>
-                                            <li>Team Member 2</li>
-                                            <li>Team Member 3</li>
-                                        </ol>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                    </Col>
-                </Row>
-
-                <Row>
-                    <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
-                        <div class="flip-card-project-proj">
-                            <div class="flip-card-inner-project">
-                                <div class="flip-card-front-project-arvr">
-                                    <h1 className="mainhead1-project">Mission Mars</h1>
-                                </div>
-                                <div class="flip-card-back-project">
-                                    <h2><u>Project Description</u></h2>
-                                    <h4>
-                                        <ol>
-
-                                            <li>Team Member 1</li>
-                                            <li>Team Member 2</li>
-                                            <li>Team Member 3</li>
-                                        </ol>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                    </Col>
-                    <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
-                        <div class="flip-card-project-proj">
-                            <div class="flip-card-inner-project">
-                                <div class="flip-card-front-project-os">
-                                    <h1 className="mainhead1-project">x86_64-decOS</h1>
+                                <div class="flip-card-front-project-collab">
+                                    {/* <h1 className="mainhead1-project">Collab.mp3</h1> */}
                                 </div>
                                 <div class="flip-card-back-project">
                                     <h2><u>Project Description</u></h2>
@@ -129,8 +64,8 @@ export default function Project() {
                     <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
                         <div class="flip-card-project-proj">
                             <div class="flip-card-inner-project">
-                                <div class="flip-card-front-project-app">
-                                <h1 className="mainhead1-project">Music Recommendation Web App</h1>
+                                <div class="flip-card-front-project-cicidation">
+                                {/* <h1 className="mainhead1-project">CiCidation</h1> */}
 
                                 </div>
                                 <div class="flip-card-back-project">
@@ -153,8 +88,28 @@ export default function Project() {
                     <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
                         <div class="flip-card-project-proj">
                             <div class="flip-card-inner-project">
-                                <div class="flip-card-front-project-ai">
-                                    <h1 className="mainhead1-project">Debaterx</h1>
+                                <div class="flip-card-front-project-fingsurfers">
+                                    {/* <h1 className="mainhead1-project">FingSurfers</h1> */}
+                                </div>
+                                <div class="flip-card-back-project">
+                                    <h2><u>Project Description</u></h2>
+                                    <h4>
+                                        <ol>
+
+                                            <li>Team Member 1</li>
+                                            <li>Team Member 2</li>
+                                            <li>Team Member 3</li>
+                                        </ol>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
+                        <div class="flip-card-project-proj">
+                            <div class="flip-card-inner-project">
+                                <div class="flip-card-front-project-arcase">
+                                    {/* <h1 className="mainhead1-project">ARCase</h1> */}
                                 </div>
                                 <div class="flip-card-back-project">
                                     <h2><u>Project Description</u></h2>
@@ -174,31 +129,9 @@ export default function Project() {
                     <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
                         <div class="flip-card-project-proj">
                             <div class="flip-card-inner-project">
-                                <div class="flip-card-front-project-app">
-                                <h1 className="mainhead1-project">The Transcriptor</h1>
-                                
-                                </div>
-                                <div class="flip-card-back-project">
-                                    <h2><u>Project Description</u></h2>
-                                    <h4>
-                                        <ol>
+                                <div class="flip-card-front-project-ddos">
+                                {/* <h1 className="mainhead1-project">DDOS Protectors</h1> */}
 
-                                            <li>Team Member 1</li>
-                                            <li>Team Member 2</li>
-                                            <li>Team Member 3</li>
-                                        </ol>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                    </Col>
-
-
-                    <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" sm className="pt-5">
-                        <div class="flip-card-project-proj">
-                            <div class="flip-card-inner-project">
-                                <div class="flip-card-front-project-fs">
-                                    <h1 className="mainhead1-project">Resuminest</h1>
                                 </div>
                                 <div class="flip-card-back-project">
                                     <h2><u>Project Description</u></h2>
