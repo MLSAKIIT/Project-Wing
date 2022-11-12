@@ -34,8 +34,8 @@ export default function Landing() {
                     <h1 className="mainhead2" style={{ fontFamily: 'DM Sans' }}>By Microsoft Student Community, KIIT Chapter</h1>
 
 
-                    <Button variant="outline-light" size="xxl" className="btn m-2" style={{ fontFamily: 'DM Sans' }} href="">
-                        Coming Soon
+                    <Button variant="outline-light" size="xxl" className="btn m-2" style={{ fontFamily: 'DM Sans' }} href="https://forms.office.com/r/titE6sAPE3" target="_blank">
+                        Apply Now
                     </Button>
 
                 </Col>
