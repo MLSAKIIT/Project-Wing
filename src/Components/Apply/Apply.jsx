@@ -138,7 +138,12 @@ export default class Apply extends Component {
 
     // axios.post('https://projectwingapi.herokuapp.com/users/add', user)
     axios
-      .post(`${process.env.REACT_APP_BACKEND_URL}/users/add`, user)
+      .post(`${process.env.REACT_APP_BACKEND_URL}/users/add`, user, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+        withCredentials: false,
+      })
       .then((res) => {
         console.log(res.data);
         alert("User Registered!! Yippeee");
